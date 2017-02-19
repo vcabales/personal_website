@@ -1,0 +1,31 @@
+.container {
+	background-color: #F0FFFF;
+	display: inline-block;
+}
+
+#photo {
+	width: 50vw;
+	height: 100vh;
+}
+
+#info {
+	float: right;
+	width: 50vw;
+	height: 100vh;
+	padding-top: 25vh;
+}
+
+.row {
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	padding-left: 5vw;
+}
+
+.col {
+	padding: 0.25vw;
+}
+
+.btn {
+	
+}

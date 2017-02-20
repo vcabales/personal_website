@@ -20,13 +20,23 @@
     <![endif]-->
   </head>
   <body>
-    <img src="/Users/vcabales/Documents/bootstrap-4.0.0-alpha.6-dist/img/pusheen.jpg" id="photo" alt="profilePicture" class="float-md-">
+    <img src="/Users/vcabales/Documents/personal_website/img/pusheen.jpg" id="photo" alt="profilePicture" class="float-md-">
     <div id="info" class="container" "float-md-right">
-      <div class="row"><div class="col"><h1>About Me </h1></div></div>
-      <div class="row"><div class="col"><h1>Resume</h1></div></div>
-      <div class="row"><div class="col"><h1>Code</h1></div></div>
-      <div class="row"><div class="col"><h1>Writing</h1></div></div>
-      <div class="row"><div class="col"><h1>Photography</h1></div></div>
+      <div class="row"><div class="col menu">
+        <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'aboutMe')"><h1>About Me</h1></a>
+      </div></div>
+      <div class="row"><div class="col menu">
+        <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'resume')"><h1>Resume</h1></a>
+        </div></div>
+      <div class="row"><div class="col menu">
+        <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'code')"><h1>Code</h1></a>
+      </div></div>
+      <div class="row"><div class="col menu">
+        <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'writing')"><h1>Writing</h1></a>
+      </div></div>
+      <div class="row"><div class="col menu">
+        <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'photography')"><h1>Photography</h1></a>
+      </div></div>
     </div>
 
 
@@ -34,16 +44,47 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="animations.js"></script>
 
 
     <!-- About Me Div -->
+    <div id="aboutMe" class="tabcontent">
+      <div id="modal1">
+        <span class="close"><a href="javascript:void(0)" class="tablinks" onclick="closeTab(event, 'aboutMe')">&times;</a></span>
+        <h1>This is a Test</h1>
+      </div>
+    </div>
 
     <!-- Resume Div -->
+    <div id="resume" class="tabcontent">
+      <div id="modal2">
+      <span class="close"><a href="javascript:void(0)" class="tablinks" onclick="closeTab(event, 'resume')">&times;</a></span>
+      <h1>Test</h1>
+    </div>
+    </div>
 
     <!-- Code Div -->
+    <div id="code" class="tabcontent">
+      <div id="modal3">
+      <span class="close"><a href="javascript:void(0)" class="tablinks" onclick="closeTab(event, 'code')">&times;</a></span>
+      <h1>Test</h1>
+    </div>
+    </div>
 
     <!-- Writing Div -->
+    <div id="writing" class="tabcontent">
+      <div id="modal4">
+      <span class="close"><a href="javascript:void(0)" class="tablinks" onclick="closeTab(event, 'writing')">&times;</a></span>
+      <h1>Test</h1>
+    </div>
+    </div>
 
     <!-- Photography Div -->
+    <div id="photography" class="tabcontent">
+      <div id="modal5">
+      <span class="close">&times;</span>
+      <h1>Test</h1>
+    </div>
+    </div>
   </body>
 </html>

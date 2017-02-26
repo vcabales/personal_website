@@ -20,71 +20,166 @@
     <![endif]-->
   </head>
   <body>
-    <img src="/Users/vcabales/Documents/personal_website/img/pusheen.jpg" id="photo" alt="profilePicture" class="float-md-">
-    <div id="info" class="container" "float-md-right">
-      <div class="row"><div class="col menu">
-        <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'aboutMe')"><h1>About Me</h1></a>
-      </div></div>
-      <div class="row"><div class="col menu">
-        <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'resume')"><h1>Resume</h1></a>
-        </div></div>
-      <div class="row"><div class="col menu">
-        <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'code')"><h1>Code</h1></a>
-      </div></div>
-      <div class="row"><div class="col menu">
-        <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'writing')"><h1>Writing</h1></a>
-      </div></div>
-      <div class="row"><div class="col menu">
-        <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'photography')"><h1>Photography</h1></a>
-      </div></div>
+
+    <img src="/Users/vcabales/Documents/personal_website/img/propic2.jpg" id="profilePhoto" alt="profilePicture" class="float-md-left">
+
+    <div class="col" id="victoriaInfo">
+      <div class="row" id="aboutRow">
+      <h1>Hi, my name's Victoria.</h1>
+    </div>
+      <p>Hire me pls</p>
+      <p>I need to pay billz</p>
     </div>
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <div id="info" class="container float-md-right">
+      <div class="row">
+        <div class="col" id="menu">
+
+      <div class="row"><div class="col menu">
+        <button id="aboutButton"><h2 class="btnText">Contact</h2></button>
+      </div></div>
+      <div class="row"><div class="col menu">
+        <button id="codeButton"><h2 class="btnText">Code</h2></button>
+      </div></div>
+      <div class="row"><div class="col menu">
+        <button id="resumeButton"><h2 class="btnText">Resume</h2></button>
+        </div></div>
+      <div class="row"><div class="col menu">
+        <button id="writingButton"><h2 class="btnText">Writing</h2></button>
+      </div></div>
+      <div class="row"><div class="col menu">
+        <button id="photoButton"><h2 class="btnText">Photography</h2></button>
+      </div></div>
+
+    </div>
+
+  </div>
+
+    <!-- Resume Div -->
+<div id="resume" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span id="closeResume" class="close">&times;</span>
+      <h2>Modal Header</h2>
+    </div>
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
+
+</div>
+
+    <!-- Code Div -->
+<div id="code" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span id="closeCode" class="close">&times;</span>
+      <h2>Modal Header</h2>
+    </div>
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
+
+</div>
+
+    <!-- Writing Div -->
+<div id="writing" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span id="closeWriting" class="close">&times;</span>
+      <h2>Modal Header</h2>
+    </div>
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
+
+</div>
+
+    <!-- Photography Div -->
+<div id="photo" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span id="closePhoto" class="close">&times;</span>
+      <h2>Modal Header</h2>
+    </div>
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
+
+</div>
+
+    <!-- Code Div -->
+<div id="code" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span id="closeCode" class="close">&times;</span>
+      <h2>Modal Header</h2>
+    </div>
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
+
+</div>
+
+    <!-- About Me Div -->
+<div id="aboutMe" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span id="closeAbout" class="close">&times;</span>
+      <h2>Modal Header</h2>
+    </div>
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
+
+</div>
+    
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="animations.js"></script>
-
-
-    <!-- About Me Div -->
-    <div id="aboutMe" class="tabcontent">
-      <div id="modal1">
-        <span class="close"><a href="javascript:void(0)" class="tablinks" onclick="closeTab(event, 'aboutMe')">&times;</a></span>
-        <h1>This is a Test</h1>
-      </div>
-    </div>
-
-    <!-- Resume Div -->
-    <div id="resume" class="tabcontent">
-      <div id="modal2">
-      <span class="close"><a href="javascript:void(0)" class="tablinks" onclick="closeTab(event, 'resume')">&times;</a></span>
-      <h1>Test</h1>
-    </div>
-    </div>
-
-    <!-- Code Div -->
-    <div id="code" class="tabcontent">
-      <div id="modal3">
-      <span class="close"><a href="javascript:void(0)" class="tablinks" onclick="closeTab(event, 'code')">&times;</a></span>
-      <h1>Test</h1>
-    </div>
-    </div>
-
-    <!-- Writing Div -->
-    <div id="writing" class="tabcontent">
-      <div id="modal4">
-      <span class="close"><a href="javascript:void(0)" class="tablinks" onclick="closeTab(event, 'writing')">&times;</a></span>
-      <h1>Test</h1>
-    </div>
-    </div>
-
-    <!-- Photography Div -->
-    <div id="photography" class="tabcontent">
-      <div id="modal5">
-      <span class="close">&times;</span>
-      <h1>Test</h1>
-    </div>
-    </div>
   </body>
 </html>

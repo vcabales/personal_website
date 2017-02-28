@@ -20,41 +20,36 @@
     <![endif]-->
   </head>
   <body>
+    <div class="container-fluid">
+      <div id="top">
+  <div class="row">
+    <img src="/Users/vcabales/Documents/personal_website/img/propic1.jpg" id="profilePhoto" alt="profilePicture" class="float-md-left">
+    <h1 id="text-overlay">Hi!</h1>
+  </div>
+    <h1 id="header-text">I'm</h1>
+    <h1 id="name">Victoria</h1>
+  </div>
 
-    <img src="/Users/vcabales/Documents/personal_website/img/propic2.jpg" id="profilePhoto" alt="profilePicture" class="float-md-left">
+  <div class="row" id="menu" align="center">
 
-    <div class="col" id="victoriaInfo">
-      <div class="row" id="aboutRow">
-      <h1>Hi, my name's Victoria.</h1>
-    </div>
-      <p>Hire me pls</p>
-      <p>I need to pay billz</p>
-    </div>
-
-
-    <div id="info" class="container float-md-right">
-      <div class="row">
-        <div class="col" id="menu">
-
-      <div class="row"><div class="col menu">
-        <button id="aboutButton"><h2 class="btnText">Contact</h2></button>
-      </div></div>
-      <div class="row"><div class="col menu">
-        <button id="codeButton"><h2 class="btnText">Code</h2></button>
-      </div></div>
-      <div class="row"><div class="col menu">
-        <button id="resumeButton"><h2 class="btnText">Resume</h2></button>
-        </div></div>
-      <div class="row"><div class="col menu">
-        <button id="writingButton"><h2 class="btnText">Writing</h2></button>
-      </div></div>
-      <div class="row"><div class="col menu">
-        <button id="photoButton"><h2 class="btnText">Photography</h2></button>
-      </div></div>
-
-    </div>
+        <button id="aboutButton" data-toggle="collapse" href="#aboutMe" aria-expanded="false" aria-controls="collapseExample">About Me</button>
+        <button id="codeButton">Code</button>
+        <button id="resumeButton">Resume</button>
+        <button id="writingButton">Writing</button>
+        <button id="photoButton">Photography</button>
 
   </div>
+
+      <!-- About Me Div -->
+<div id="aboutMe" class="collapse">
+
+  <div id="aboutContent">
+    <div id="aboutText">
+    
+  </div>
+  </div>
+
+</div>
 
     <!-- Resume Div -->
 <div id="resume" class="modal">
@@ -63,14 +58,10 @@
   <div class="modal-content">
     <div class="modal-header">
       <span id="closeResume" class="close">&times;</span>
-      <h2>Modal Header</h2>
     </div>
     <div class="modal-body">
       <p>Some text in the Modal Body</p>
       <p>Some other text...</p>
-    </div>
-    <div class="modal-footer">
-      <h3>Modal Footer</h3>
     </div>
   </div>
 
@@ -83,14 +74,10 @@
   <div class="modal-content">
     <div class="modal-header">
       <span id="closeCode" class="close">&times;</span>
-      <h2>Modal Header</h2>
     </div>
     <div class="modal-body">
       <p>Some text in the Modal Body</p>
       <p>Some other text...</p>
-    </div>
-    <div class="modal-footer">
-      <h3>Modal Footer</h3>
     </div>
   </div>
 
@@ -103,14 +90,12 @@
   <div class="modal-content">
     <div class="modal-header">
       <span id="closeWriting" class="close">&times;</span>
-      <h2>Modal Header</h2>
     </div>
     <div class="modal-body">
       <p>Some text in the Modal Body</p>
       <p>Some other text...</p>
     </div>
     <div class="modal-footer">
-      <h3>Modal Footer</h3>
     </div>
   </div>
 
@@ -123,15 +108,10 @@
   <div class="modal-content">
     <div class="modal-header">
       <span id="closePhoto" class="close">&times;</span>
-      <h2>Modal Header</h2>
     </div>
     <div class="modal-body">
       <p>Some text in the Modal Body</p>
       <p>Some other text...</p>
-    </div>
-    <div class="modal-footer">
-      <h3>Modal Footer</h3>
-    </div>
   </div>
 
 </div>
@@ -143,34 +123,10 @@
   <div class="modal-content">
     <div class="modal-header">
       <span id="closeCode" class="close">&times;</span>
-      <h2>Modal Header</h2>
     </div>
     <div class="modal-body">
       <p>Some text in the Modal Body</p>
       <p>Some other text...</p>
-    </div>
-    <div class="modal-footer">
-      <h3>Modal Footer</h3>
-    </div>
-  </div>
-
-</div>
-
-    <!-- About Me Div -->
-<div id="aboutMe" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <div class="modal-header">
-      <span id="closeAbout" class="close">&times;</span>
-      <h2>Modal Header</h2>
-    </div>
-    <div class="modal-body">
-      <p>Some text in the Modal Body</p>
-      <p>Some other text...</p>
-    </div>
-    <div class="modal-footer">
-      <h3>Modal Footer</h3>
     </div>
   </div>
 

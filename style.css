@@ -1,26 +1,59 @@
-body {
-  background-color: #202020;
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Enriqueta|Marck+Script');
+
+.container-fluid {
+  margin: 0 auto;
 }
-.container {
-	background-color: #202020;
-	display: inline-block;
+
+#text-overlay, #header-text, #name {
+  position: absolute;
+}
+
+#name {
+  font-family: 'Marck Script', cursive;
+}
+
+#text-overlay {
+  color: black;
+  opacity: 0.6;
+  margin-top: 8vh;
+  margin-left: 32vw;
+  font-size: 120px;
+  font-family: 'Marck Script', cursive;
+}
+
+#top {
+  position: relative;
+  background-color: #00004d; 
+  height: 53vh;
+  margin: 0 auto;
+}
+
+#header-text {
+  color: white;
+  font-size: 150px;
+  margin-left: 48vw;
+  margin-top: -50vh;
+  font-family: 'Enriqueta', serif;
+}
+
+#name {
+  color: #e5c100; //#00007f; 
+  font-size: 150px;
+  margin-left: 55vw;
+  margin-top: -30vh;
+}
+
+body {
+  background-color: #383838;
 }
 
 #profilePhoto {
-	width: 55vw;
-	height: 70vh;
+	height: 50vh;
 	z-index: 0;
-}
-
-#info {
-	float: right;
-	width: 45vw;
-	height: 100vh;
-  margin-top: -80vh;
-}
-
-#menu {
-  padding-top: 25vh;
+  margin-left: 30vh;
+  margin-top: 5vh;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
 }
 
 .modal {
@@ -55,10 +88,13 @@ body {
 
 /* The Close Button */
 .close {
-    color: white;
+    color: black;
+    opacity: 0.7;
     float: right;
-    font-size: 28px;
+    font-size: 40px;
     font-weight: bold;
+    margin-left: 96vw;
+    margin-top: 0;
 }
 
 .close:hover,
@@ -70,26 +106,21 @@ body {
 
 .modal-header {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: #DCDCDC;
     color: white;
+    height: 20vh;
 }
 
 .modal-body {padding: 2px 16px;}
 
-.modal-footer {
-    padding: 2px 16px;
-    background-color: #5cb85c;
-    color: white;
-}
-
 @-webkit-keyframes slideIn {
-    from {right: -300px; opacity: 0} 
-    to {right: 0; opacity: 1}
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
 }
 
 @keyframes slideIn {
-    from {right: -300px; opacity: 0}
-    to {right: 0; opacity: 1}
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
 }
 
 @-webkit-keyframes fadeIn {
@@ -113,6 +144,7 @@ button {
   letter-spacing: 3px;
   cursor: pointer;
   float:center;
+  background-color: #B0C4DE;
 }
 button:after, button:before {
   content: "";
@@ -140,49 +172,35 @@ button:hover:after, button:hover:before {
           transform: translate(0);
 }
 
-
-#victoriaInfo {
-  height: 20vh;
-  width: 55vw;
-  float: left;
-  display: inline-block;
-  background-color: #FFFAF0;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
+#menu {
+  margin-left: 35vh;
+  margin-top: 5vh;
 }
 
-.btnText {
-  color: black;
-}
-
-#aboutRow {
-  margin-top: -4.5vh;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 10px;
-  border: 1px solid rgba(0,0,0,.2);
+#aboutContent {
+  text-align: justify;
   background-color: #DCDCDC;
+  margin-top: 3vh;
+  width: 80vw;
+  margin-left: 10vw;
+  height: 23vh;
+  border-radius: 10px;
 }
 
-
-#aboutButton {
-  background-color: #B0E0E6;
+#aboutText {
+  font-family: 'Enriqueta', serif;
+  padding: 20px;
 }
 
-#codeButton {
-  background-color: #B0E0E6;
-}
-
-#resumeButton {
-  background-color: #B0E0E6;
-}
-
-#writingButton {
-  background-color: #B0E0E6;
-}
-
-#photoButton {
-  background-color: #B0E0E6;
-}
-
-
-
+/* //tooltip 
+#aboutContent #aboutText::after {
+    content: " ";
+    position: absolute;
+    bottom: 24%;  
+    left: 25%;
+    margin-left: -25px;
+    border-width: 25px;
+    border-style: solid;
+    border-color: transparent transparent #B0C4DE transparent;
+    color: #B0C4DE;
+*/

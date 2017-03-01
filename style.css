@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Bad+Script|Enriqueta|Marck+Script');
 
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+}
 .container-fluid {
   margin: 0 auto;
 }
@@ -44,7 +52,7 @@
 }
 
 body {
-  background-color: #C9AF94;
+  background-color: #c4c4b0;
 }
 
 #profilePhoto {
@@ -83,7 +91,8 @@ body {
     -webkit-animation-name: slideIn;
     -webkit-animation-duration: 0.4s;
     animation-name: slideIn;
-    animation-duration: 0.4s
+    animation-duration: 0.4s;
+    overflow: scroll;
 }
 
 /* The Close Button */
@@ -93,8 +102,7 @@ body {
     float: right;
     font-size: 40px;
     font-weight: bold;
-    margin-left: 96vw;
-    margin-top: 0;
+    margin-top: -7vh;
 }
 
 .close:hover,
@@ -104,11 +112,20 @@ body {
     cursor: pointer;
 }
 
+
 .modal-header {
     padding: 2px 16px;
-    background-color: #DCDCDC;
+    background-color: #F8F8F8;
     color: white;
-    height: 20vh;
+    height: 12vh;
+    display: block;
+}
+
+.modal-header h1 {
+  font-family: 'Enriqueta', serif;
+  color: black;
+  opacity: 0.8;
+  font-size: 3em;
 }
 
 .modal-body {padding: 2px 16px;}
@@ -179,7 +196,7 @@ button:hover:after, button:hover:before {
 
 #aboutContent {
   text-align: justify;
-  background-color: #DCDCDC;
+  background-color: #c4c4b0;
   margin-top: 3vh;
   width: 80vw;
   margin-left: 10vw;
@@ -192,15 +209,42 @@ button:hover:after, button:hover:before {
   padding: 20px;
 }
 
-/* //tooltip 
-#aboutContent #aboutText::after {
-    content: " ";
-    position: absolute;
-    bottom: 24%;  
-    left: 25%;
-    margin-left: -25px;
-    border-width: 25px;
-    border-style: solid;
-    border-color: transparent transparent #B0C4DE transparent;
-    color: #B0C4DE;
-*/
+#sidebar {
+  width: 25vw;
+  margin: 2vw;
+  height: 200vh;
+  border-style: outset;
+  display: block;
+}
+
+#resumeContent {
+  margin: 1vw;
+  margin-right: 1vw;
+  display: block;
+  height: 200vh;
+  width: 68vw;
+  float: right;
+  border-style: outset;
+  float: right;
+  margin-top: -204vh;
+}
+
+.resume-section {
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+
+.resume-section h2 {
+  font-family: 'Enriqueta', serif;
+  font-size: 2.5em;
+}
+
+#skills {
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+
+.resumeDates {
+  width: 20%;
+  height: 100%;
+}

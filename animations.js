@@ -13,22 +13,18 @@ var photoBtn = document.getElementById("photoButton");
 
 resumeBtn.onclick = function() {
   resumeModal.style.display = "block";
-  popup.style.display = "none";
 }
 
 codeBtn.onclick = function() {
   codeModal.style.display = "block";
-  popup.style.display = "none";
 }
 
 wrtngBtn.onclick = function() {
   writingModal.style.display = "block";
-  popup.style.display = "none";
 }
 
 photoBtn.onclick = function() {
   photoModal.style.display = "block";
-  popup.style.display = "none";
 }
           
 // Get the <span> element that closes the modal

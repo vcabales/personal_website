@@ -169,6 +169,18 @@ body {
     to {opacity: 1}
 }
 
+.media {
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+}
+
+.media-body {
+  width: 40vw;
+  margin-top: 3vh;
+  margin-left: 1vw;
+  margin-right: 3vw;
+}
+
 
 button {
   padding: 20px 40px;
@@ -291,7 +303,7 @@ button:hover:after, button:hover:before {
 }
 
 #photoInfo p {
-  font-size: 0.9em;
+  font-size: 0.85em;
 }
 
 #Everest {
@@ -315,6 +327,10 @@ button:hover:after, button:hover:before {
   display: inline-block;
   margin-top: 2vh;
   margin-left: 15vw;
+}
+
+#dailyPieces p {
+  margin: 0;
 }
 
 .reflection-container {

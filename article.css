@@ -1,0 +1,22 @@
+#LGBTarticle {
+	width: 85vw;
+	text-align: justify;
+}
+
+#SAGvideo {
+
+}
+
+.caption {
+	font-size: 0.9em;
+}
+
+.caption-container {
+	max-width: 15vw; /*not working? */
+}
+
+footer {
+	border-top: solid;
+	border-color: black;
+	border-width: 0.1em;
+}

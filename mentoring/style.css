@@ -1,0 +1,106 @@
+.header-image {
+	margin-top: -7vh;
+	background-image: url(img/loren_ayala.jpg);
+}
+
+.headline h1 {
+	font-size: 4em;
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	text-align: justify;
+	padding-bottom: 1vh;
+	padding-top: 3vh;
+	margin-bottom: 0;
+	padding-left, padding-right: 2vw;
+}
+
+.headline h3 {
+	text-align: justify;
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+	margin-top: 0;
+	padding-left, padding-right: 2vw;
+	padding-bottom: 3vh;
+	font-size: 1.5em;
+}
+
+p.lead {
+	font-size: 1.3em;
+}
+
+#caption {
+	float: right;
+	/* margin-left: 47vw;*/
+	padding-right: 1vw;
+	padding-left: 11vw;
+	padding-bottom: 1vw;
+	margin-right: 1.9vw;
+	width: 45vw;
+	padding-top: 0.5vw;
+}
+
+#border {
+	width: 50vw;
+	height: 15vh;
+}
+
+#header-caption {
+	padding-top: 2vh;
+	padding-left: 1vw;
+	font-size: 1.2em;
+}
+
+#video {
+	margin-left: 10vw;
+	margin-bottom: 0;
+}
+
+.video-content h3 {
+	color: white;
+	padding-right: 1vw;
+	background: rgba(0, 0, 0, 0.8);
+	padding-left: 1vw;
+	padding-top: 2vh;
+	padding-bottom: 5vh;
+	width: 66vw;
+	margin-left: 10vw;
+	margin-top: 0;
+}
+
+#spencer {
+	font-size: 0.7em;
+}
+
+.audio-container {
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	width: 50vw;
+}
+
+#introAudio {
+	width: 100%;
+	height: 5vh;
+}
+
+#audio1 {
+	float: left;
+	margin-right: 1vw;
+}
+
+.audio-container h2, h4{
+	padding-left: 1vw;
+}
+
+audio {
+	width: 50vw;
+}
+
+#audio2 {
+	float: right;
+	margin-left: 1vw;
+}
+
+.featurette-divider {
+	margin-top: 4vh;
+	margin-bottom: 5vh;
+}

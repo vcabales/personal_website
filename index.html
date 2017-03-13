@@ -23,7 +23,7 @@
     <div class="container-fluid">
       <div id="top">
   <div class="row">
-    <img src="img/propic1.jpg" id="profilePhoto" alt="profilePicture" class="float-xs-left">
+    <img src="img/propic1.jpg" id="profilePhoto" alt="profilePicture" class="float-xs-left img-fluid">
     <h1 id="text-overlay"><b>aspiring <br /> journalist | developer</b></h1>
   </div>
     <h1 id="name">victoria <br /> cabales</h1>
@@ -72,7 +72,8 @@
       <span id="closeResume" class="close">&times;</span>
     </div>
     <div class="modal-body" id="resumeBody">
-      <div class="container" id="sidebar">
+      <div class="row">
+      <div class="col-xs-4" id="sidebar">
         <!-- Picture and skills here -->
         <img src="img/coffee.jpg" alt="..." class="img-thumbnail" id="resumePhoto">
         Evanston, IL
@@ -84,6 +85,7 @@
         <div id="skills">
           <h2>Skills</h2>
         </div>
+        <br />
         <h4>Adobe </h4>
         PhotoShop
         <ul>
@@ -105,6 +107,7 @@
         </ul>
         <h4>Languages</h4>
         <ul>
+        <li> English (native)
         <li>Spanish (advanced) 
         <li>Japanese (basic)
         </ul>
@@ -125,7 +128,7 @@
         <li>Engineering Analysis I
       </ul>
       </div>
-      <div class="container" id="resumeContent">
+      <div class="col-xs-8" id="resumeContent">
         <!-- Rest of resume here -->
         <h2>Victoria Cabales</h2>
       <div id="education">
@@ -278,7 +281,8 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> <!--Close Row Div -->
+</div> 
 
 </div>
 </div> <!-- Close Resume Div -->
@@ -290,7 +294,7 @@
   <div class="modal-content">
     <div class="modal-header">
       <h1>Code</h1>
-         <a href="https://github.com/vcabales" target="blank"><img id="codeGit" width="80vw" class="icon" src="img/blackgiticon.png"></a>
+         <a href="https://github.com/vcabales" target="blank"><img id="codeGit" class="icon" src="img/blackgiticon.png"></a>
       <span id="closeCode" class="close">&times;</span>
     </div>
     <div class="modal-body">
@@ -310,14 +314,13 @@
           <br /><em>Note: Knight Lab Github for this project is not public. </em>
       </div>
       </div>
-      <br />
             <div class="media">
-      <div class="media-left">
+      <div class="media-left" id="workzoneDiv">
         <a href="https://github.com/vcabales/EECS-330-Project">
-        <img class="media-object" src="img/workzone.png" width="500vw" alt="workzone">
+        <img class="media-object" src="img/workzone.png" id="workzone" alt="workzone">
         </a>
       </div>
-      <div class="media-body">
+      <div class="media-body" id="wokzoneSummary">
         <h4 class="media-heading">WorkZone</h4>
           WorkZone is a web app that tracks how much time a user wastes while studying. After the user manually inputs the sites that he or she finds unproductive, the app tracks these sites for a designated amount of time. After the time is up, the app displays a chart that represents the user's Internet activity, highlighting the time allotted to unproductive sites. Working with a four-person group for a Human Computer Interaction Class, I designed the general layout of our app. By doing so, I gained experience in using HTML, CSS, and JavaScript to design a one-page application. Although the class does not require us to implement its functionality, we hope to do so in the future. <a href="https://github.com/vcabales/EECS-330-Project">View here on Github.</a>
       </div>
@@ -343,9 +346,9 @@
       <h2>My Work</h2>
       <!--Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. <br /> -->
       <div class="media">
-      <div class="media-left">
-        <a href="mentoring/index.html" target="blank">
-        <img class="media-object" width="280vw" src="mentoring/img/loren_ayala.jpg" alt="Loren Ayala">
+      <div class="media-left" id="ayalaDiv">
+        <a href="mentoring/index.html" target="blank" >
+        <img class="media-object" id="ayala" src="mentoring/img/loren_ayala.jpg" alt="Loren Ayala">
         </a>
       </div>
         <div class="media-body">
@@ -355,9 +358,9 @@
       </div>
 
       <div class="media">
-      <div class="media-left">
+      <div class="media-left" id="LGBTAsianDiv">
         <a href="article1.html" target="blank">
-        <img class="media-object" width="280vw" src="http://img.huffingtonpost.com/asset/scalefit_970_noupscale/570f1c2f1600002b0031ba77.png" alt="Sad Asian Girls Club">
+        <img class="media-object" id="SAGC" src="http://img.huffingtonpost.com/asset/scalefit_970_noupscale/570f1c2f1600002b0031ba77.png" alt="Sad Asian Girls Club">
         </a>
       </div>
       <div class="media-body">
@@ -393,37 +396,13 @@
     </div>
     <div class="modal-body">
       <div class="row">
-      <div class='reflection-container'>
-  <div class='reflection-grid-cell reflection-grid-cell-1'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-2'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-3'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-4'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-5'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-6'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-7'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-8'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-9'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-10'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-11'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-12'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-13'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-14'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-15'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-16'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-17'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-18'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-19'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-20'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-21'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-22'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-23'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-24'></div>
-  <div class='reflection-grid-cell reflection-grid-cell-25'></div> <div class='reflection-grid-cell reflection-grid-cell-26'></div> <div class='reflection-grid-cell reflection-grid-cell-27'></div> <div class='reflection-grid-cell reflection-grid-cell-28'></div> <div class='reflection-grid-cell reflection-grid-cell-29'></div> <div class='reflection-grid-cell reflection-grid-cell-30'></div> <div class='reflection-grid-cell reflection-grid-cell-31'></div> <div class='reflection-grid-cell reflection-grid-cell-32'></div> <div class='reflection-grid-cell reflection-grid-cell-33'></div> <div class='reflection-grid-cell reflection-grid-cell-34'></div> <div class='reflection-grid-cell reflection-grid-cell-35'></div> <div class='reflection-grid-cell reflection-grid-cell-36'></div> <div class='reflection-grid-cell reflection-grid-cell-37'></div> <div class='reflection-grid-cell reflection-grid-cell-38'></div> <div class='reflection-grid-cell reflection-grid-cell-39'></div> <div class='reflection-grid-cell reflection-grid-cell-40'></div> <div class='reflection-grid-cell reflection-grid-cell-41'></div> <div class='reflection-grid-cell reflection-grid-cell-42'></div> <div class='reflection-grid-cell reflection-grid-cell-43'></div> <div class='reflection-grid-cell reflection-grid-cell-44'></div> <div class='reflection-grid-cell reflection-grid-cell-45'></div> <div class='reflection-grid-cell reflection-grid-cell-46'></div> <div class='reflection-grid-cell reflection-grid-cell-47'></div> <div class='reflection-grid-cell reflection-grid-cell-48'></div> <div class='reflection-grid-cell reflection-grid-cell-49'></div> <div class='reflection-grid-cell reflection-grid-cell-50'></div> <div class='reflection-grid-cell reflection-grid-cell-51'></div> <div class='reflection-grid-cell reflection-grid-cell-52'></div> <div class='reflection-grid-cell reflection-grid-cell-53'></div> <div class='reflection-grid-cell reflection-grid-cell-54'></div> <div class='reflection-grid-cell reflection-grid-cell-55'></div> <div class='reflection-grid-cell reflection-grid-cell-56'></div> <div class='reflection-grid-cell reflection-grid-cell-57'></div> <div class='reflection-grid-cell reflection-grid-cell-58'></div> <div class='reflection-grid-cell reflection-grid-cell-59'></div> <div class='reflection-grid-cell reflection-grid-cell-60'></div> <div class='reflection-grid-cell reflection-grid-cell-61'></div> <div class='reflection-grid-cell reflection-grid-cell-62'></div> <div class='reflection-grid-cell reflection-grid-cell-63'></div> <div class='reflection-grid-cell reflection-grid-cell-64'></div> <div class='reflection-grid-cell reflection-grid-cell-65'></div> <div class='reflection-grid-cell reflection-grid-cell-66'></div> <div class='reflection-grid-cell reflection-grid-cell-67'></div> <div class='reflection-grid-cell reflection-grid-cell-68'></div> <div class='reflection-grid-cell reflection-grid-cell-69'></div> <div class='reflection-grid-cell reflection-grid-cell-70'></div> <div class='reflection-grid-cell reflection-grid-cell-71'></div> <div class='reflection-grid-cell reflection-grid-cell-72'></div> <div class='reflection-grid-cell reflection-grid-cell-73'></div> <div class='reflection-grid-cell reflection-grid-cell-74'></div> <div class='reflection-grid-cell reflection-grid-cell-75'></div> <div class='reflection-grid-cell reflection-grid-cell-76'></div> <div class='reflection-grid-cell reflection-grid-cell-77'></div> <div class='reflection-grid-cell reflection-grid-cell-78'></div> <div class='reflection-grid-cell reflection-grid-cell-79'></div> <div class='reflection-grid-cell reflection-grid-cell-80'></div> <div class='reflection-grid-cell reflection-grid-cell-81'></div> <div class='reflection-grid-cell reflection-grid-cell-82'></div> <div class='reflection-grid-cell reflection-grid-cell-83'></div> <div class='reflection-grid-cell reflection-grid-cell-84'></div> <div class='reflection-grid-cell reflection-grid-cell-85'></div> <div class='reflection-grid-cell reflection-grid-cell-86'></div> <div class='reflection-grid-cell reflection-grid-cell-87'></div> <div class='reflection-grid-cell reflection-grid-cell-88'></div> <div class='reflection-grid-cell reflection-grid-cell-89'></div> <div class='reflection-grid-cell reflection-grid-cell-90'></div> <div class='reflection-grid-cell reflection-grid-cell-91'></div> <div class='reflection-grid-cell reflection-grid-cell-92'></div> <div class='reflection-grid-cell reflection-grid-cell-93'></div> <div class='reflection-grid-cell reflection-grid-cell-94'></div> <div class='reflection-grid-cell reflection-grid-cell-95'></div> <div class='reflection-grid-cell reflection-grid-cell-96'></div> <div class='reflection-grid-cell reflection-grid-cell-97'></div> <div class='reflection-grid-cell reflection-grid-cell-98'></div> <div class='reflection-grid-cell reflection-grid-cell-99'></div> <div class='reflection-grid-cell reflection-grid-cell-100'></div> <div class='reflection-content'></div>
-</div>
+        <div class="col-md-4">
+            <img src="photo_portfolio/CM4.JPG" id="ChicagoMarathon" alt="ChicagoMarathon">
+          <img src="photo_portfolio/E10.jpg" id="EverestDish" alt="EverestDish">
+        </div>
   <div id="photoInfo" class="col-md-6">
     <p>I love photography because it fits perfectly with my love for exploring exciting, new places. Most of my work focuses on culinary endeavors, ranging from casual coffee shops to the kitchen of Everest, a Michelin-star restaurant at the top of the Chicago Stock Exchange. Driven by my sense of adventure, I seek out fast-paced events that can be challenging to capture in still images.
       <br />
-      <em>Hover effect taken from <a href="http://codepen.io/onediv/pen/BprVzp">Codepen.</a></em>
     <div class="row">
       <div class="col-md-4">
     <img src="photo_portfolio/E6COVER.jpg" class="img-responsive" id="Everest">
@@ -434,7 +413,7 @@
     <img src="photo_portfolio/CM6.JPG" class="img-responsive" id="marathon">
   </div>
     </div>
-  </div>
+</div>
 </div>
   </div> <!--Close modal body -->
 </div> <!--Close modal-content -->

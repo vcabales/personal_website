@@ -20,36 +20,28 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container-fluid">
-      <div id="top">
-  <div class="row">
-    <img src="img/propic1.jpg" id="profilePhoto" alt="profilePicture" class="float-xs-left img-fluid">
-    <h1 id="text-overlay"><b>aspiring <br /> journalist | developer</b></h1>
-  </div>
-    <h1 id="name">victoria <br /> cabales</h1>
-  </div>
+    <h1 id="name">victoria <br /> cabales aspiring <br /> journalist | developer | coffee enthusiast</h1>
 
-  <div class="row" id="menu" align="center">
-
-        <button id="aboutButton" data-toggle="collapse" href="#aboutMe" aria-expanded="false" aria-controls="collapseExample">About Me</button>
-        <button id="codeButton">Code</button>
-        <button id="resumeButton">Resume</button>
-        <button id="writingButton">Writing</button>
-        <button id="photoButton">Photography</button>
-
+<div id="menu">
+  <ul role="tablist">
+        <li role="presentation"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+        <li role="presentation"><a href="#aboutMe" aria-controls="aboutMe" role="tab" data-toggle="tab">About Me</a></li>
+        <li><a href="#resume" aria-controls="resume" role="tab" data-toggle="tab">Resume</a></li>
+        <li role="presentation" aria-controls="code" data-toggle="tab"><a href="#code">Code</a></li>
+        <li role="presentation"><a href="#writing" aria-controls="writing" data-toggle="tab">Writing</a></li>
+        <li role="presentation"><a href="#photo" aria-controls="photo" data-toggle="tab">Photography</a></li>
+  </ul>
   </div>
 
+<div class="tab-content">
 
-  <div id="icons">
-    <a href="malito:victoriacabales2019@u.northwestern.edu" target="blank"><img id ="email" class="icon" src="img/mail.ico"></a>
-    <a href="https://www.linkedin.com/in/victoria-cabales-37556a120/" target="blank"><img class="icon" src="img/linkedinicon.png"></a>
-    <a href="https://github.com/vcabales" target="blank"><img class="icon" src="img/githubicon.png"></a>
-  </div> 
-
+<div id="home" class="tab-pane fade in active">
+</div>
       <!-- About Me Div -->
-<div id="aboutMe" class="collapse">
+<div id="aboutMe" class="tab-pane fade">
 
   <div id="aboutContent">
+    <img src="img/propic1.jpg" id="profilePhoto" alt="profilePicture" class="float-xs-left img-fluid">
     <div id="aboutText">
     <p>I'm a sophomore at Northwestern University studying Journalism and Computer Science. I like to write, code, and explore new places. Always looking to explore something fun and challenging, I'm interested in experimenting with the ways technology can influence journalism. 
     <br />
@@ -59,245 +51,24 @@
     <br />
   </div>
   </div>
-
 </div>
 
-    <!-- Resume Div -->
-<div id="resume" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <div class="modal-header">
-      <h1>Resume</h1>
-      <span id="closeResume" class="close">&times;</span>
-    </div>
-    <div class="modal-body" id="resumeBody">
-      <div class="row">
-      <div class="col-xs-4" id="sidebar">
-        <!-- Picture and skills here -->
-        <img src="img/coffee.jpg" alt="..." class="img-thumbnail" id="resumePhoto">
-        Evanston, IL
-        <br />Greater Chicago Area
-        <br />Northwestern University Student
-        <br /><a href="malito: victoriacabales2019@u.northwestern.edu">victoriacabales2019@u.northwestern.edu</a>
-        <br />
-        <br />
-        <div id="skills">
-          <h2>Skills</h2>
-        </div>
-        <br />
-        <h4>Adobe </h4>
-        PhotoShop
-        <ul>
-        <li>PremierePro
-        <li>AfterEffects
-      </ul>
-        <h4>Computer</h4>
-        <ul>
-        <li>Microsoft Office
-        <li> WordPress 
-        <li> WebVR platforms
-        </ul>
-        <h4>Programming</h4>
-        <ul>
-        C++ 
-        <li>Matlab 
-        <li>HTML/CSS 
-        <li>JavaScript
-        </ul>
-        <h4>Languages</h4>
-        <ul>
-        <li> English (native)
-        <li>Spanish (advanced) 
-        <li>Japanese (basic)
-        </ul>
-        <h4>Other</h4>
-        <ul>
-        <li>DSLR Camera Experience
-        <li>Knowledge of Arduino
-        <li>2D Character Animation Experience
-        <li>Experience Using Virtual Reality Framework <a href="https://aframe.io/">a-frame</a>
-        </ul>
-        <h4>Relevant Coursework </h4>
-        <ul>
-        <li>Reporting &amp; Writing 
-        <li>Multimedia Storytelling 
-        <li>Human Computer Interaction 
-        <li>Fundamentals of Computer Programming
-        <li>Intro to Photojournalism 
-        <li>Engineering Analysis I
-      </ul>
-      </div>
-      <div class="col-xs-8" id="resumeContent">
-        <!-- Rest of resume here -->
-        <h2>Victoria Cabales</h2>
-      <div id="education">
-        <div class="resume-section"><h3>Education</h3></div>
-        <b>Northwestern University</b>, Medill School of Journalism
-        <br> Bachelor of Science in Journalism, Degree Expected June 2019
-        <br> <b>Major</b>: Journalism <b>Minor</b>: Computer Science
-      </div>
-      <div id="work">
-        <div class="resume-section"><h3>Work Experience</h3></div>
-        <div class="row resumeRow">
-          <div class="col-xs-14 col-md-10" class="resumeInfo">
-        <b>B.C.B.C. Coffee Lab</b> <em>Marketing Assistant, Barista</em>
-        <ul>
-        <li>Assists in development of website and social media presence of a local business
-        <li>Develops interpersonal skills by interacting with approximately 70 customers per shift
-        <li>Demonstrates product knowledge by crafting specialty drinks and answering customers' questions
-      </ul>
-          </div>
-          <div class="col-xs-4 col-md-2">
-            <span class="resumeDates">
-            Evanston, IL
-            <br />Aug 2016 - Present
-          </span>
-          </div>
-      </div>
-      <div class="row resumeRow">
-          <div class="col-xs-14 col-md-10" class="resumeInfo">
-        <ul>
-        <b>Lift Cafe</b> <em>Assistant Chef, Opertions Team</em>
-        <li>Participates in the development of a small breakfast cafe at Willow Creek Community Church
-        <li>Helps decide menu and marketing to attract customers
-        <li>Improves product development skills by adjusting recipes based on customer feedback
-      </ul>
-          </div>
-          <div class="col-xs-4 col-md-2">
-            <span class="resumeDates">
-            Evanston, IL
-            <br />Feb 2017 - Present
-          </span>
-          </div>
-      </div>
-      <div class="row resumeRow">
-          <div class="col-xs-14 col-md-10" class="resumeInfo">
-        <b>English Summer S.A.</b> <em>English Teacher</em>
-        <ul>
-        <li>Taught English to children between the ages of seven to eight years old in rural Spain
-        <li>Overcame cultural barriers to communicate with employers and clients
-        <li>Improved fluency in the Spanish language
-      </ul>
-          </div>
-          <div class="col-xs-4 col-md-2">
-            <span class="resumeDates">
-            Tarragona, Spain
-            <br />Jun 2016 - Aug 2016
-          </span>
-          </div>
-      </div>
-      <div class="row resumeRow">
-          <div class="col-xs-14 col-md-10" class="resumeInfo">
-        <b>Midland Medical Associates, L.L.C.</b> <em>Secretary</em>
-        <ul>
-        <li>Greeted patients at the front desk and collected any relevant information regarding their visit
-        <li>Billed insurance companies for their patients' visits and collected patients' copay
-        <li>Communicated with patients through phone calls and developed interpersonal skills
-      </ul>
-          </div>
-          <div class="col-xs-4 col-md-2">
-            <span class="resumeDates">
-            Jersey City, NJ
-            <br />Jun 2015 - Aug 2015
-          </span>
-          </div>
-      </div>
-      </div>
-      <div id="extra">
-        <div class="resume-section"><h3>Extracurricular Activities</h3></div>
-        <div class="row resumeRow">
-          <div class="col-xs-14 col-md-10" class="resumeInfo">
-          <b>The Daily Northwestern</b>
-          <br /><em>Assistant Web Editor</em>
-          <br /><em>City Reporter, Digital Projects Team</em>
-          <ul>
-          <li>Manages WordPress site, Twitter, and Facebook accounts
-          <li>Develops journalistic and networking skills through interviewing and writing articles
-          <li>Assists in the creation of special web features with HTML, CSS, and JavaScript
-        </ul>
-          </div>
-          <div class="col-xs-4 col-md-2">
-            <span class="resumeDates">
-              Evanston, IL
-              <br />Jan 2017 - Present
-              <br />Feb 2016 - Present
-            </span>
-          </div>
-        </div>
-        <div class="row resumeRow">
-          <div class="col-xs-14 col-md-10" class="resumeInfo">
-          <b>Cookology</b>
-          <br /><em>Secretary, Outreach</em>
-          <br /><em>Culinary Chair</em>
-          <ul>
-          <li>Develops entrepreneurial skills by organizing pop-up restaurants (temporary restaurants)
-          <li>Designs graphics and emails to manage a network of approximately 500 Northwestern students
-          <li>Teaches cooking lessons to about 30 other students per session
-          <li>Reaches out to local restaurants and student groups to host educational culinary events
-        </ul>
-          </div>
-          <div class="col-xs-4 col-md-2">
-            <span class="resumeDates">
-              Evanston, IL
-              <br />Sept 2016 - Present
-              <br />Oct 2015 - Jun 2016
-            </span>
-          </div>
-        </div>
-        <div class="row resumeRow">
-          <div class="col-xs-14 col-md-10" class="resumeInfo">
-          <b><em>YUP</em> Animated Webseries</b>
-          <br /><em>Assistant Animator</em>
-          <ul>
-          <li>Animates 2D characters for a webseries that will be aired by Northwestern television production group NUCH1
-          <li>Utilizes Adobe AfterEffects to make the movements of animated characters more natural
-          <li>Gains experience using PhotoShop and audio files for animation purposes
-        </ul>
-          </div>
-          <div class="col-xs-4 col-md-2">
-            <span class="resumeDates">
-              Evanston, IL
-              <br />Jan 2017 - Present
-            </span>
-          </div>
-        </div>
-        <div class="row resumeRow">
-          <div class="col-xs-14 col-md-10" class="resumeInfo">
-          <b>Northwestern Design Competition</b>
-          <br /><em>Team Member</em>
-          <ul>
-          <li>Participated in a four-person team to create a robot
-          <li>Gained experience using Arduino to create motion sensors
-          <li>Developed interest in sensor journalism
-        </ul>
-          </div>
-          <div class="col-xs-4 col-md-2">
-            <span class="resumeDates">
-              Evanston, IL
-              <br />Jan 2016 - May 2016
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> <!--Close Row Div -->
-</div> 
-
+<!-- Resume Div -->
+<div id="resume" class="tab-pane fade">
+  <h1> View my resume here pls </h1>
+  <div id="icons">
+    <a href="malito:victoriacabales2019@u.northwestern.edu" target="blank"><img id ="email" class="icon" src="img/mail.ico"></a>
+    <a href="https://www.linkedin.com/in/victoria-cabales-37556a120/" target="blank"><img class="icon" src="img/linkedinicon.png"></a>
+    <a href="https://github.com/vcabales" target="blank"><img class="icon" src="img/githubicon.png"></a>
+  </div> 
 </div>
-</div> <!-- Close Resume Div -->
 
     <!-- Code Div -->
-<div id="code" class="modal">
+<div id="code" class="tab-pane fade">
 
-  <!-- Modal content -->
-  <div class="modal-content">
-    <div class="modal-header">
       <h1>Code</h1>
          <a href="https://github.com/vcabales" target="blank"><img id="codeGit" class="icon" src="img/blackgiticon.png"></a>
       <span id="closeCode" class="close">&times;</span>
-    </div>
-    <div class="modal-body">
       <h2>My Interests</h2>
       <p>I'm passionate about finding ways to tell creative stories through code. I've gained experience in interface design, virtual reality, and software engineering. I also plan on exploring computational photography and data visualization in the near future. My ideal career involves creating interactive and immersive journalistic experiences through online platforms.</p>
       <h2>Languages</h2>
@@ -328,21 +99,14 @@
       <br />
       <h2>Relevant Coursework</h2>
       <p>Fundamentals of Computer Programming I &amp; II, Human Computer Interaction, Engineering Analysis I, Multimedia Storytelling </p>
-    </div>
-  </div>
 
 </div> <!-- Close Code Div -->
 
     <!-- Writing Div -->
-<div id="writing" class="modal">
+<div id="writing" class="tab-pane fade">
 
-  <!-- Modal content -->
-  <div class="modal-content">
-    <div class="modal-header">
       <h1>Writing</h1>
       <span id="closeWriting" class="close">&times;</span>
-    </div>
-    <div class="modal-body">
       <h2>My Work</h2>
       <!--Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. <br /> -->
       <div class="media">
@@ -379,45 +143,13 @@
       <h2>Relevant Courses</h2>
         <p>Reporting &amp; Writing, Multimedia Storytelling, Reading &amp; Writing on the Margins</p>
     </div>
-    <div class="modal-footer">
+<!-- Photo Div -->
+  <div id="photo" class="tab-pane fade">
+    <h1>View photos in this div </h1>
     </div>
-  </div>
 
-</div> <!--Close Writing Div -->
+  </div>  <!-- Close tabcontent -->
 
-    <!-- Photography Div -->
-<div id="photo" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <div class="modal-header">
-      <h1>Photography</h1>
-      <span id="closePhoto" class="close">&times;</span>
-    </div>
-    <div class="modal-body">
-      <div class="row">
-        <div class="col-md-4">
-            <img src="photo_portfolio/CM4.JPG" id="ChicagoMarathon" alt="ChicagoMarathon">
-          <img src="photo_portfolio/E10.jpg" id="EverestDish" alt="EverestDish">
-        </div>
-  <div id="photoInfo" class="col-md-6">
-    <p>I love photography because it fits perfectly with my love for exploring exciting, new places. Most of my work focuses on culinary endeavors, ranging from casual coffee shops to the kitchen of Everest, a Michelin-star restaurant at the top of the Chicago Stock Exchange. Driven by my sense of adventure, I seek out fast-paced events that can be challenging to capture in still images.
-      <br />
-    <div class="row">
-      <div class="col-md-4">
-    <img src="photo_portfolio/E6COVER.jpg" class="img-responsive" id="Everest">
-    <img src="photo_portfolio/ST11.jpg" class="img-responsive" id="Snaggletooth">
-  </div>
-    <div class="col-md-4">
-    <img src="photo_portfolio/BT5COVER.jpg" class="img-responsive" id="Bowtruss">
-    <img src="photo_portfolio/CM6.JPG" class="img-responsive" id="marathon">
-  </div>
-    </div>
-</div>
-</div>
-  </div> <!--Close modal body -->
-</div> <!--Close modal-content -->
-</div> <!--Close Photography Div -->
 
     
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

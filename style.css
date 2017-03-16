@@ -6,31 +6,53 @@
     src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
 }
 
-.container-fluid {
-  margin: 0 auto;
+#menu {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 20%;
+  float: left;
+  z-index: 1;
+  position: fixed;
+  background-color: black;
 }
 
-#text-overlay, #header-text, #name {
-  position: absolute;
+.tab-content{
+  display: flex;
+  float: right;
+  z-index: -1;
+  overflow: hidden;
 }
+
+.tab-pane {
+  display: flex;
+  float: right;
+  padding-left: 25%;
+  padding-right: 5%;
+}
+
+
+#homeBackground {
+  margin: 0 auto;
+  z-index: -1;
+  width: 50%;
+}
+
+ ul {
+ list-style-type: none;
+ }
+
+ ul a:link, a:visited {
+  color: white;
+ }
+
+ ul a:hover, a:active {
+  text-decoration: none;
+  background-color: gray;
+  /* White for color - change opacity of ul */
+ }
 
 #name {
-  font-family: 'Didact Gothic', sans-serif;
-  color: #C5B358;
-  font-size: 700%;
-  margin-left: 53%;
-  margin-top: -25%;
-  border: solid #C5B358;
-  padding: 2%;
-}
-
-#text-overlay {
-  color: black;
-  opacity: 0.8;
-  margin-top: 3%;
-  margin-left: 35%;
-  font-size: 150%;
-  font-family: 'Didact Gothic', sans-serif;
 }
 
 #top {
@@ -45,25 +67,21 @@
   right: 0;
 }
 
-body {
-  background-color: #00004d;
-}
-
 #profilePhoto {
-	width: 30%;
+  width: 10%;
   height: 1%;
-	z-index: 0;
+  z-index: 0;
   margin-left: 20%;
   margin-top: 2%;
-  border-radius: 5%;
+  border-radius: 100%;
 }
 
 #icons {
   z-index: -1;
   display: block;
-  position: fixed;
   margin-left: 40%;
   margin-top: 4%;
+  background-color: black;
 }
 
 .icon {
@@ -92,74 +110,6 @@ body {
     animation-duration: 0.4s;
 }
 
-/* Modal Content */
-.modal-content {
-    position: fixed;
-    bottom: 0;
-    background-color: #fefefe;
-    width: 100%;
-    height: 100%;
-    -webkit-animation-name: slideIn;
-    -webkit-animation-duration: 0.4s;
-    animation-name: slideIn;
-    animation-duration: 0.4s;
-    overflow: scroll;
-}
-
-/* The Close Button */
-.close {
-    color: black;
-    opacity: 0.7;
-    float: right;
-    font-size: 200%;
-    font-weight: bold;
-    margin-top: -4%;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-
-.modal-header {
-    padding: 0.125em 1em;
-    background-color: #F8F8F8;
-    color: white;
-    height: 12%;
-    display: block;
-}
-
-.modal-header h1 {
-  font-family: 'Enriqueta', serif;
-  color: black;
-  opacity: 0.8;
-  font-size: 3em;
-}
-
-.modal-body {padding: 0.125em 1em;}
-
-@-webkit-keyframes slideIn {
-    from {bottom: -18.75em; opacity: 0} 
-    to {bottom: 0; opacity: 1}
-}
-
-@keyframes slideIn {
-    from {bottom: -18.75em; opacity: 0}
-    to {bottom: 0; opacity: 1}
-}
-
-@-webkit-keyframes fadeIn {
-    from {opacity: 0} 
-    to {opacity: 1}
-}
-
-@keyframes fadeIn {
-    from {opacity: 0} 
-    to {opacity: 1}
-}
 
 .media {
   margin-top: 5%;
@@ -167,7 +117,7 @@ body {
 }
 
 .media-body {
-  width: 80%;
+  width: 40%;
   margin-left: 1%;
   margin-right: 3%;
 }
@@ -194,54 +144,10 @@ body {
   width: 30%;
 }
 
-button {
-  padding: 1.25em 2.5em;
-  background: none;
-  border: none;
-  position: relative;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1.10em;
-  letter-spacing: 0.1875em;
-  cursor: pointer;
-  float:center;
-  background-color: #B0C4DE;
-}
-button:after, button:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  border: 0.125em solid black;
-  -webkit-transition: -webkit-transform 0.2s;
-  transition: -webkit-transform 0.2s;
-  transition: transform 0.2s;
-  transition: transform 0.2s, -webkit-transform 0.2s;
-}
-button:after {
-  -webkit-transform: translate(0.1875em, 0.1875em);
-          transform: translate(0.1875em, 0.1875em);
-}
-button:before {
-  -webkit-transform: translate(-0.1875em, -0.1875em);
-          transform: translate(-0.1875em, -0.1875em);
-}
-button:hover:after, button:hover:before {
-  -webkit-transform: translate(0);
-          transform: translate(0);
-}
-
-#menu {
-  margin-left: 15%;
-  margin-top: 2%;
-}
-
 #aboutContent {
   text-align: justify;
   color: white;
-  background-color: #00004d;
+  background-color: black;
   margin-top: 1%;
   width: 75%;
   margin-left: 15%;

@@ -1,20 +1,40 @@
-@import url('https://fonts.googleapis.com/css?family=Bad+Script|Enriqueta|Didact+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Yellowtail');
 
-@font-face {
-    font-family: 'Glyphicons Halflings';
-    src: url('../fonts/glyphicons-halflings-regular.eot');
-    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+#name {
+  z-index: 1;
+  display: inline-block;
+  position: absolute;
+  margin-top: -35%;
+  color: white;
+  padding-left: 13%;
+  font-size: 650%;
+  line-height: 40%;
+  font-family: 'Yellowtail', cursive;
+  text-align: center;
+}
+
+#subtitle {
+  font-size: 25%;
+  font-family: 'Cutive Mono', monospace;
 }
 
 #menu {
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 20%;
+  width: 22%;
   float: left;
   z-index: 1;
   position: fixed;
-  background-color: black;
+  background-color: #181818;
+}
+
+#menu li {
+  font-size: 150%;
+  text-align: left;
+  padding: 0%;
+  margin: 0;
+  font-family: 'Cutive Mono', monospace;
 }
 
 .tab-content{
@@ -31,29 +51,41 @@
   padding-right: 5%;
 }
 
-
-#homeBackground {
-  margin: 0 auto;
-  z-index: -1;
-  width: 50%;
+#home {
+  background: url("img/coveredited1.jpg");
+  background-size: 100% 110%;
+  background-repeat: no-repeat;
 }
 
- ul {
- list-style-type: none;
+#homeCover {
+  width: 118%;
+  margin-left: -5%;
+  margin-right: 20%;
+  z-index: -1;
+  position: relative;
+  visibility: hidden;
+}
+
+ #menu ul {
+  list-style-type: none;
+  margin-top: 65%;
+  border-top: solid white;
+  border-bottom: solid white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-width: thin;
+  margin-left: 10%;
+  margin-right: 12%;
  }
 
- ul a:link, a:visited {
+ #menu ul a:link, a:visited {
   color: white;
  }
 
- ul a:hover, a:active {
+ #menu ul a:hover, a:active {
   text-decoration: none;
-  background-color: gray;
-  /* White for color - change opacity of ul */
+  border-bottom: solid white;
  }
-
-#name {
-}
 
 #top {
   position: relative;
@@ -68,12 +100,11 @@
 }
 
 #profilePhoto {
-  width: 10%;
-  height: 1%;
+  width: 40%;
   z-index: 0;
-  margin-left: 20%;
+  margin-left: 10%;
   margin-top: 2%;
-  border-radius: 100%;
+  border-radius: 60%;
 }
 
 #icons {
@@ -91,23 +122,6 @@
 
 #email {
   margin-right: 5%;
-}
-
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    -webkit-animation-name: fadeIn; /* Fade in the background */
-    -webkit-animation-duration: 0.4s;
-    animation-name: fadeIn;
-    animation-duration: 0.4s;
 }
 
 
@@ -145,13 +159,13 @@
 }
 
 #aboutContent {
-  text-align: justify;
+  text-align: left;
   color: white;
-  background-color: black;
-  margin-top: 1%;
+  background-color: #181818;
+  margin-top: 5%;
   width: 75%;
   margin-left: 15%;
-  height: 25%;
+  height: 90%;
 }
 
 #aboutText {

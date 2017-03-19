@@ -88,14 +88,17 @@
   border-bottom: solid white;
  }
 
-#profilePhoto {
-  z-index: 5;
-  margin-left: 10%;
+ #profileContainer {
   width: 30%;
-  height: 25%;
-  border-radius: 100%;
   margin-top: -15%;
   margin-left: 35%;
+ }
+
+#profilePhoto {
+  z-index: 5;
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
 }
 
 #icons {
@@ -173,43 +176,24 @@
 }
 
 #aboutTitle {
-  padding-left: 5%;
+  padding-left: 10%;
   font-family: 'Homemade Apple', cursive;
-  margin-top: -35%;
+  margin-top: 7%;
+  line-height: 0%;
 }
 
 #aboutText {
-  padding: 3%;
-  padding-left: 5%;
-  padding-right: 40%;
+  padding-top: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
   text-align: justify;
   font-family: 'Josefin Slab', serif;
+  margin-bottom: -10%;
+  font-size: 110%;
 }
 
 #aboutText h1 {
   font-family: 'Homemade Apple', cursive;
-}
-
-#sideInfo h1{
-  font-family: 'Homemade Apple', cursive;
-  font-size: 150%;
-}
-
-#sideInfo h2 {
-  font-family: 'Caveat', cursive;
-  font-size: 130%;
-}
-
-#sideInfo {
-  display: inline-block;
-  color: white;
-  margin-left: 60%;
-  padding-left: 5%;
-  margin-top: 5%;
-}
-
-#sideInfo li {
-  font-family: 'Josefin Slab', serif;
 }
 
 #sidebar {

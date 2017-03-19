@@ -92,10 +92,7 @@
   z-index: 5;
   margin-left: 10%;
   width: 30%;
-  height: 30%;
-  background: url("img/propic2.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  height: 25%;
   border-radius: 100%;
   margin-top: -15%;
   margin-left: 35%;
@@ -178,6 +175,7 @@
 #aboutTitle {
   padding-left: 5%;
   font-family: 'Homemade Apple', cursive;
+  margin-top: -35%;
 }
 
 #aboutText {
@@ -192,8 +190,26 @@
   font-family: 'Homemade Apple', cursive;
 }
 
-#aboutText h2 {
+#sideInfo h1{
+  font-family: 'Homemade Apple', cursive;
+  font-size: 150%;
+}
+
+#sideInfo h2 {
   font-family: 'Caveat', cursive;
+  font-size: 130%;
+}
+
+#sideInfo {
+  display: inline-block;
+  color: white;
+  margin-left: 60%;
+  padding-left: 5%;
+  margin-top: 5%;
+}
+
+#sideInfo li {
+  font-family: 'Josefin Slab', serif;
 }
 
 #sidebar {

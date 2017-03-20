@@ -5,7 +5,7 @@
   z-index: 1;
   display: inline-block;
   position: absolute;
-  margin-top: -35%;
+  margin-top: 15%;
   color: white;
   padding-left: 13%;
   font-size: 650%;
@@ -54,17 +54,14 @@
 
 #home {
   background: url("img/coveredited1.jpg");
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
   background-size: 100% 110%;
   background-repeat: no-repeat;
-}
-
-#homeCover {
-  width: 118%;
-  margin-left: -5%;
-  margin-right: 20%;
-  z-index: -1;
-  position: relative;
-  visibility: hidden;
+  z-index: 0;
 }
 
  #menu ul {
@@ -128,6 +125,7 @@
   width: 40%;
   margin-left: 1%;
   margin-right: 3%;
+  overflow: scroll;
 }
 
 #workzone {
@@ -159,7 +157,7 @@
   margin-top: 10%;
   width: 75%;
   margin-left: 15%;
-  height: 100%;
+  height: 80%;
   border-radius: 1%;
   margin-top: 10%;
   padding-top: 5%;
@@ -168,11 +166,25 @@
   display: block;
 }
 
+#aboutContent a {
+  text-decoration: none;
+  color: #ADD8E6;
+}
+
 #aboutMe {
-  background: url("img/3.jpg");
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: url("img/aboutCover.jpg");
   background-size: 180% 150%;
   background-repeat: no-repeat;
-  padding-bottom: 10%;
+  z-index: -1;
+}
+
+#titleContainer {
+  width: 100%;
 }
 
 #aboutTitle {
@@ -190,9 +202,11 @@
   font-family: 'Josefin Slab', serif;
   margin-bottom: -10%;
   font-size: 110%;
+  overflow: scroll;
+  height: 80%;
 }
 
-#aboutText h1 {
+#aboutText h1, #photoContent h1 {
   font-family: 'Homemade Apple', cursive;
 }
 
@@ -286,4 +300,79 @@ hr {
 
 #dailyPieces p {
   margin: 0;
+}
+
+#photo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: url("img/photoCover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#photoContent {
+  text-align: justify;
+  color: white;
+  background-color: #181818;
+  margin-top: 5%;
+  width: 85%;
+  margin-left: 10%;
+  height: 90%;
+  border-radius: 1%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  z-index: 5;
+  display: block;
+  font-family: 'Josefin Slab', serif;
+}
+
+#photoContent p {
+  font-size: 150%;
+  text-align: center;
+  margin-top: 1%;
+}
+
+#photoContent h2 {
+  font-family: 'Cutive Mono', monospace;
+  text-align: center;
+  font-size: 200%;
+}
+
+#photoContent h1 {
+  text-align: center;
+  font-size: 300%;
+}
+
+#photoRedirect {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  width: 90%;
+  margin-left: 5%;
+}
+
+#photoContent a {
+  text-decoration: none;
+  color: #ADD8E6;
+}
+
+.photoElement {
+  width: 50%;
+  text-align: center;
+}
+
+.photoCircle {
+  width: 50%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+
+.photoElement img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
 }

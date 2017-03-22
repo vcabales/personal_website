@@ -28,6 +28,7 @@
   z-index: 1;
   position: fixed;
   background-color: #181818;
+  word-wrap: break-word;
 }
 
 #menu li {
@@ -133,7 +134,7 @@
   width: 100%;
 }
 #workzoneDiv {
-  width: 30%;
+  width: 28%;
 }
 #ayalaDiv {
   width: 30%;
@@ -180,7 +181,6 @@
   background: url("img/aboutCover.jpg");
   background-size: 180% 150%;
   background-repeat: no-repeat;
-  z-index: -1;
 }
 
 #titleContainer {
@@ -220,10 +220,13 @@
   border-style: outset;
   display: block;
   padding-left: 1%;
-  font-size: 80%;
+  font-size: 90%;
   margin-left: 1%;
   margin-top: 1.5%;
   background-color: #F5F5F5;
+  font-family: 'Arvo', serif;
+  word-wrap: break-word;
+  padding-bottom: 1%;
 }
 
 #resumeContent {
@@ -236,9 +239,10 @@
   margin-top: 1.5%;
   padding: 1%;
   padding-bottom: 0.5%;
-  font-size: 70%;
+  font-size: 80%;
   font-family: 'Arvo', serif;
   background-color: #F5F5F5;
+  word-wrap: break-word;
 }
 
 .resume-section {
@@ -251,15 +255,11 @@
 
 #resumeContent h2 {
   font-family: 'Yellowtail', cursive;
-  font-size: 500%;
+  font-size: 400%;
 }
 
 #resumeContent h3 {
   font-family: 'Ranga', cursive;
-}
-
-#sidebar {
-  font-family: 'Arvo', serif;
 }
 
 #sidebar h2 {
@@ -272,9 +272,28 @@
   font-size: 210%;
 }
 
+#sidebar hr {
+  margin-bottom: 5%;
+  margin-top: -3%;
+  margin-right: 2%;
+}
+
+#courses {
+  padding-right: 1%;
+}
+
 #resumeContent h4 {
-  font-family: 'Cutive Mono', monospace;
-  font-size: 130%;
+  font-family: 'Arvo', serif;
+  font-size: 115%;
+  font-weight: bold;
+}
+
+.col-xs-4 {
+  padding: 0;
+}
+
+.col-md-2 {
+  padding: 0;
 }
 
 hr {
@@ -298,6 +317,22 @@ hr {
   padding-bottom: 10%;
 }
 
+#extra {
+  margin-top: -3%;
+}
+
+#code {
+  top: -30%;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 130%;
+  background: url("img/codeCover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: scroll;
+}
+
 #dailyPieces p {
   margin: 0;
 }
@@ -308,9 +343,8 @@ hr {
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: -1;
   background: url("img/photoCover.jpg");
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 

@@ -46,9 +46,9 @@
     <h1 id="aboutTitle">About Me</h1>
     </div>
     <div id="aboutText">
-    <p>I love to write and code, and I do both while consuming copious amounts of caffeine. I'd like to find a job that would allow me to combine my two passions, but in the meantime, I'm studying Journalism and Computer Science at Northwestern University. <br />
+    <p>I love to write and code, and I do both while consuming copious amounts of caffeine. My dream is to find a job that would combine my two passions, but in the meantime, I'm studying Journalism and Computer Science at Northwestern University. <br />
       <br />
-    I hope to one day work as a data journalist, discovering investigative stories through web scraping and creating interactive content through code. After a long and adventurous career (ideally filled with traveling to cool places around the world), I dream of opening a humble cafe that serves delicious coffee and has special stations for people to learn how to code. <br />
+    One day, I hope to work as a data journalist, discovering investigative stories through web scraping and creating interactive content through code. After an adventurous career (ideally filled with traveling to cool places around the world), I dream of opening a cute cafe that serves delicious coffee and has special stations for people to learn how to code. <br />
       <br />
     If you'd like to support me and my dreams, feel free to contact me at <a href="malito:victoriacabales2019@u.northwestern.edu" target="blank">victoriacabales2019@u.northwestern.edu</a>.
   </div>
@@ -65,15 +65,18 @@
         <img src="img/coffee.jpg" alt="..." class="img-thumbnail" id="resumePhoto">
         <div id="resumeCaption">
         Evanston, IL
-        <br />Greater Chicago Area
-        <br />Northwestern University Student
+        <br/>Greater Chicago Area
+        <br/>Northwestern University Student
       </div>
+      <hr/>
         <h2>Skills</h2>
         <h4>Adobe </h4>
         <ul>
         <li>PhotoShop
         <li>PremierePro
         <li>AfterEffects
+        <li>InDesign
+        <li>Illustrator
       </ul>
         <h4>Computer</h4>
         <ul>
@@ -87,6 +90,8 @@
         <li>Matlab 
         <li>HTML/CSS 
         <li>JavaScript
+        <li>Python (in progress)
+        <li>Java (in progress)
         </ul>
         <h4>Languages</h4>
         <ul>
@@ -102,13 +107,14 @@
         <li>Experience Using Virtual Reality Framework <a href="https://aframe.io/">a-frame</a>
         </ul>
         <h4>Relevant Coursework </h4>
-        <ul>
+        <ul id="courses">
         <li>Reporting &amp; Writing 
         <li>Multimedia Storytelling 
-        <li>Human Computer Interaction 
-        <li>Fundamentals of Computer Programming
         <li>Intro to Photojournalism 
+        <li>Human Computer Interaction 
+        <li>Fundamentals of Computer Programming I &amp; II
         <li>Engineering Analysis I
+        <li>Data Structures &amp; Data Management
       </ul>
       </div>
       <div class="col-xs-8" id="resumeContent">
@@ -119,7 +125,7 @@
         <div class="resume-section"><h3>Education</h3></div>
         <h4>Northwestern University, Medill School of Journalism </h4>
         <h4> Bachelor of Science in Journalism, Degree Expected June 2019 </h4>
-        <h4>Major: Journalism Minor: Computer Science </h4>
+        <h4>Major: Journalism | Minor: Computer Science </h4>
       </div>
       <div id="work">
         <div class="resume-section"><h3>Work Experience</h3></div>
@@ -141,7 +147,7 @@
       </div>
       <div class="row resumeRow">
           <div class="col-xs-14 col-md-10" class="resumeInfo">
-        <h4>Lift Cafe <em>Assistant Chef, Opertions Team</em></h4>
+        <h4>Lift Cafe <em>Assistant Chef, Operations Team</em></h4>
         <ul>
         <li>Participates in the development of a small breakfast cafe at Willow Creek Community Church
         <li>Helps decide menu and marketing to attract customers
@@ -279,39 +285,48 @@
 
     <!-- Code Div -->
 <div id="code" class="tab-pane fade">
-
+  <div id="codeContent">
+    <div id="codeIntro">
       <h1>Code</h1>
-      <h2>My Interests</h2>
       <p>I'm passionate about finding ways to tell creative stories through code. I've gained experience in interface design, virtual reality, and software engineering. I also plan on exploring computational photography and data visualization in the near future. My ideal career involves creating interactive and immersive journalistic experiences through online platforms.</p>
+          <div id="programmingLang">
       <h2>Languages</h2>
-      <p>HTML, CSS, JavaScript, C++, Matlab</p>
-      <h2>Current Projects</h2>
-      <br />
-      <div class="media">
-      <div class="media-left">
-        <img class="media-object" src="img/knightlab.png" alt="Knight Lab"> 
-      </div>
-      <div class="media-body">
-        <h4 class="media-heading">SceneVR</h4>
+      <h4>HTML | CSS | JavaScript | C++ | Matlab </h4>
+    </div>
+    </div>
+      <div id="currentProjects">
+        <h2>Current Projects</h2>
+      <div id="sceneVR">
+        <a href="http://scene.knightlab.com/" target="blank"><img id="KnightLabLogo" src="img/knightlab.png" alt="Knight Lab"> </a>
+      <div id="sceneVRText">
+        <h4>SceneVR</h4>
           SceneVR is a virtual reality tool that provides immersive journalistic experiences that can be embedded into online platforms without additional support. The tool renders 3D panoramas in sequential stories that are supported on desktop, mobile, and Google Cardboard. Collaborating with a four-person team through Northwestern University's Knight Lab, I helped design this product by drafting its interface on PhotoShop, researching ways to render text in 3D spaces, and gathering user feedback through testing. 
-          <br /><em>View SceneVR <a href="http://scene.knightlab.com/">here</a>. </em>
+          <br /><em><a href="http://scene.knightlab.com/" target="blank">View SceneVR here</a>. </em>
       </div>
       </div>
-            <div class="media">
-      <div class="media-left" id="workzoneDiv">
-        <a href="https://github.com/vcabales/EECS-330-Project">
-        <img class="media-object" src="img/workzone.png" id="workzone" alt="workzone">
+            <div id="workzone">
+        <a href="https://github.com/vcabales/EECS-330-Project" target="blank">
+        <img src="img/workzone.png" id="workzoneImg" alt="workzone">
         </a>
+      <div id="workzoneText">
+        <h4>WorkZone</h4>
+          WorkZone is a web app that tracks how much time a user wastes while studying. After the user manually inputs the sites that he or she finds unproductive, the app tracks these sites for a designated amount of time. After the time is up, the app displays a chart that represents the user's Internet activity, highlighting the time allotted to unproductive sites. Working with a four-person group for a Human Computer Interaction Class, I designed the general layout of our app. By doing so, I gained experience in using HTML, CSS, and JavaScript to design a one-page application. Although the class does not require us to implement its functionality, we hope to do so in the future. <a href="https://github.com/vcabales/EECS-330-Project" target="blank"><em>View here on Github.</em></a>
       </div>
-      <div class="media-body" id="wokzoneSummary">
-        <h4 class="media-heading">WorkZone</h4>
-          WorkZone is a web app that tracks how much time a user wastes while studying. After the user manually inputs the sites that he or she finds unproductive, the app tracks these sites for a designated amount of time. After the time is up, the app displays a chart that represents the user's Internet activity, highlighting the time allotted to unproductive sites. Working with a four-person group for a Human Computer Interaction Class, I designed the general layout of our app. By doing so, I gained experience in using HTML, CSS, and JavaScript to design a one-page application. Although the class does not require us to implement its functionality, we hope to do so in the future. <a href="https://github.com/vcabales/EECS-330-Project">View here on Github.</a>
       </div>
-      </div>
-      <br />
-      <h2>Relevant Coursework</h2>
-      <p>Fundamentals of Computer Programming I &amp; II, Human Computer Interaction, Engineering Analysis I, Multimedia Storytelling </p>
-
+      <hr/>
+    </div>
+    <div id="codeRelCourses">
+    <h2>Relevant Courses</h2>
+    <ul>
+      <li>Fundamentals of Computer Programming I &amp; II
+      <li>Human Computer Interaction
+      <li>Engineering Analysis I
+      <li>Data Structures &amp; Management
+      <li>Computational Photography
+      <li>Multimedia Reporting
+    </ul>
+  </div>
+  </div> 
 </div> <!-- Close Code Div -->
 
     <!-- Writing Div -->

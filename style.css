@@ -28,6 +28,7 @@
   z-index: 1;
   position: fixed;
   background-color: #181818;
+  word-wrap: break-word;
 }
 
 #menu li {
@@ -125,16 +126,8 @@
   width: 40%;
   margin-left: 1%;
   margin-right: 3%;
-  overflow: scroll;
 }
 
-#workzone {
-  margin: 0;
-  width: 100%;
-}
-#workzoneDiv {
-  width: 30%;
-}
 #ayalaDiv {
   width: 30%;
 }
@@ -153,7 +146,7 @@
 #aboutContent {
   text-align: left;
   color: white;
-  background-color: #181818;
+  background-color: rgba(0,0,0,0.8);
   margin-top: 10%;
   width: 75%;
   margin-left: 15%;
@@ -178,9 +171,8 @@
   height: 100%;
   width: 100%;
   background: url("img/aboutCover.jpg");
-  background-size: 180% 150%;
+  background-size: cover;
   background-repeat: no-repeat;
-  z-index: -1;
 }
 
 #titleContainer {
@@ -220,10 +212,13 @@
   border-style: outset;
   display: block;
   padding-left: 1%;
-  font-size: 80%;
+  font-size: 90%;
   margin-left: 1%;
   margin-top: 1.5%;
   background-color: #F5F5F5;
+  font-family: 'Arvo', serif;
+  word-wrap: break-word;
+  padding-bottom: 1%;
 }
 
 #resumeContent {
@@ -236,9 +231,10 @@
   margin-top: 1.5%;
   padding: 1%;
   padding-bottom: 0.5%;
-  font-size: 70%;
+  font-size: 80%;
   font-family: 'Arvo', serif;
   background-color: #F5F5F5;
+  word-wrap: break-word;
 }
 
 .resume-section {
@@ -251,15 +247,11 @@
 
 #resumeContent h2 {
   font-family: 'Yellowtail', cursive;
-  font-size: 500%;
+  font-size: 400%;
 }
 
 #resumeContent h3 {
   font-family: 'Ranga', cursive;
-}
-
-#sidebar {
-  font-family: 'Arvo', serif;
 }
 
 #sidebar h2 {
@@ -272,9 +264,28 @@
   font-size: 210%;
 }
 
+#sidebar hr {
+  margin-bottom: 5%;
+  margin-top: -3%;
+  margin-right: 2%;
+}
+
+#courses {
+  padding-right: 1%;
+}
+
 #resumeContent h4 {
-  font-family: 'Cutive Mono', monospace;
-  font-size: 130%;
+  font-family: 'Arvo', serif;
+  font-size: 115%;
+  font-weight: bold;
+}
+
+.col-xs-4 {
+  padding: 0;
+}
+
+.col-md-2 {
+  padding: 0;
 }
 
 hr {
@@ -298,8 +309,116 @@ hr {
   padding-bottom: 10%;
 }
 
+#extra {
+  margin-top: -3%;
+}
+
+#code {
+  top: -30%;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 130%;
+  background: url("img/codeCover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: scroll;
+  font-family: 'Josefin Slab', serif;
+  font-size: 110%;
+}
+
+#programmingLang {
+  border-top: solid;
+  border-bottom: solid;
+  margin-top: 5%;
+}
+
+#programmingLang h4 {
+  text-align: center;
+}
+
+#code h1 {
+  font-family: 'Homemade Apple', cursive;
+} 
+
+#codeContent {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  margin-top: 30%;
+  text-align: justify;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+
+#codeContent h2 {
+  margin-bottom: 2%;
+  font-family: 'Cutive Mono', monospace;
+}
+
+#codeContent h3, h4 {
+ font-family: 'Cutive Mono', monospace;
+}
+
+#codeIntro {
+  width: 80%;
+  padding-top: 3%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+#currentProjects {
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 10%;
+}
+
+#sceneVR {
+  display: inline-block;
+}
+
+#sceneVRText {
+  width: 70%;
+  float: right;
+}
+
+#KnightLabLogo {
+  background-color: #F0FFFF;
+  width:25%;
+  float: left;
+} 
+
+#workzone {
+  margin-top: 5%;
+  float: left;
+  display: block;
+  padding-right: 5%;
+  padding-bottom: 7%;
+  border-bottom: solid;
+}
+
+#workzoneText {
+  float: right;
+  width: 70%;
+  display: block;
+}
+
+#workzoneImg {
+  width: 25%;
+  float: left;
+  background-color: #F0FFFF;
+  display: block;
+}
+
+#codeRelCourses {
+  border-bottom: solid;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 #dailyPieces p {
   margin: 0;
+  /*color: #ADD8E6;*/
+  color: black;
 }
 
 #photo {
@@ -308,16 +427,15 @@ hr {
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: -1;
   background: url("img/photoCover.jpg");
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 #photoContent {
   text-align: justify;
   color: white;
-  background-color: #181818;
+  background-color: rgba(0,0,0,0.6);
   margin-top: 5%;
   width: 85%;
   margin-left: 10%;

@@ -325,22 +325,39 @@ hr {
   overflow: scroll;
 }
 
+#codeRelCourse {
+  float: left;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#programmingLang {
+  padding: 5%;
+}
+
 #codeContent {
   background-color: rgba(0,0,0,0.5);
   color: white;
-  margin-top: 30%;
+  margin-top: 25%;
   text-align: justify;
 }
 
-#codeContent h1 {
-  text-align: center;
+#codeContent h2 {
+  float: left;
+  margin-bottom: 2%;
+}
+
+#codeIntro {
+  width: 80%;
+  padding-top: 3%;
+  margin-left: 10%;
+  margin-bottom: 5%;
 }
 
 #currentProjects {
-  padding-left: 10%;
   padding-right: 10%;
+  padding-left: 10%;
   padding-bottom: 10%;
-  padding-top: 5%;
 }
 
 #sceneVR {
@@ -363,6 +380,7 @@ hr {
   float: left;
   display: block;
   padding-right: 5%;
+  padding-bottom: 7%;
 }
 
 #workzoneText {

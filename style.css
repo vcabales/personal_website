@@ -323,28 +323,40 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   overflow: scroll;
-}
-
-#codeRelCourse {
-  float: left;
-  padding-left: 10%;
-  padding-right: 10%;
+  font-family: 'Josefin Slab', serif;
+  font-size: 110%;
 }
 
 #programmingLang {
-  padding: 5%;
+  border-top: solid;
+  border-bottom: solid;
+  margin-top: 5%;
 }
+
+#programmingLang h4 {
+  text-align: center;
+}
+
+#code h1 {
+  font-family: 'Homemade Apple', cursive;
+} 
 
 #codeContent {
   background-color: rgba(0,0,0,0.5);
   color: white;
-  margin-top: 25%;
+  margin-top: 30%;
   text-align: justify;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
 }
 
 #codeContent h2 {
-  float: left;
   margin-bottom: 2%;
+  font-family: 'Cutive Mono', monospace;
+}
+
+#codeContent h3, h4 {
+ font-family: 'Cutive Mono', monospace;
 }
 
 #codeIntro {
@@ -381,6 +393,7 @@ hr {
   display: block;
   padding-right: 5%;
   padding-bottom: 7%;
+  border-bottom: solid;
 }
 
 #workzoneText {
@@ -396,8 +409,16 @@ hr {
   display: block;
 }
 
+#codeRelCourses {
+  border-bottom: solid;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 #dailyPieces p {
   margin: 0;
+  /*color: #ADD8E6;*/
+  color: black;
 }
 
 #photo {

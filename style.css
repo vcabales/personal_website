@@ -118,13 +118,14 @@
 
 
 .media {
-  margin-top: 5%;
   margin-bottom: 3%;
+  width:85%;
+  margin-left:10%;
 }
 
 .media-body {
   width: 40%;
-  margin-left: 1%;
+  margin-left: 3%;
   margin-right: 3%;
 }
 
@@ -337,6 +338,11 @@ hr {
   text-align: center;
 }
 
+#code a {
+  text-decoration: none;
+  color: #ADD8E6;
+}
+
 #code h1 {
   font-family: 'Homemade Apple', cursive;
 } 
@@ -400,6 +406,7 @@ hr {
   float: right;
   width: 70%;
   display: block;
+  padding-left: 2%;
 }
 
 #workzoneImg {
@@ -415,10 +422,59 @@ hr {
   margin-right: 10%;
 }
 
+#writing {
+  overflow: scroll;
+  left: 0;
+  top: -30%;
+  position: fixed;
+  width: 100%;
+  height: 130%;
+  background: url("img/writingCover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Josefin Slab', serif;
+  font-size: 110%;
+}
+
+#writing h1 {
+  font-family: 'Homemade Apple', cursive;
+  padding-top: 3%;
+  padding-left: 10%;
+}
+
+#writing h2, #writing h3 {
+  font-family: 'Cutive Mono', monospace;
+  padding-left: 10%;
+}
+
+#writing a {
+  text-decoration: none;
+  color: #ADD8E6;
+}
+
+#writing ul {
+  padding-left: 12%;
+}
+
+#writing p {
+  padding-left: 10%;
+  font-size: 110%;
+}
+
+#writingContent {
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  margin-top: 30%;
+  text-align: justify;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+  margin-left: 2%;
+}
+
 #dailyPieces p {
   margin: 0;
-  /*color: #ADD8E6;*/
-  color: black;
+  color: #ADD8E6;
+  font-size: 90%;
 }
 
 #photo {

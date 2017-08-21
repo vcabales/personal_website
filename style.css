@@ -1,34 +1,113 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Yellowtail|Arvo');
 @import url('https://fonts.googleapis.com/css?family=Caveat|Homemade+Apple|Josefin+Slab|Ranga');
 
+@media only screen and (max-width: 400px) {
+  #main_title {
+    font-size: 100%;
+    line-height: 70%;
+  }
+  #subtitle {
+    font-size: 50%;
+  }
+  #name {
+    margin-top: 10%;
+    margin-left: -30%;
+  }
+  #menu {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  /*mobile phones? */
+  #main_title{
+    font-size: 150%;
+    line-height: 70%;
+  }
+  #subtitle {
+    font-size: 50%;
+  }
+  #name {
+    margin-top: 20%;
+    margin-left: -20%;
+  }
+  #menu {
+    display: none;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+  /*tablets */
+  #main_title {
+    font-size: 200%;
+    line-height: 70%;
+  }
+  #subtitle {
+    font-size: 50%;
+  }
+  #name {
+    margin-top: 20%;
+    margin-left: -10%;
+  }
+  #menu {
+    display: none;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+  #main_title {
+    font-size: 200%;
+    line-height: 70%;
+  }
+  #subtitle {
+    font-size: 50%;
+  }
+  #name {
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+  #menu {
+    width: 30%;
+    display: block;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  /*desktop */
+  #main_title {
+    font-size: 250%;
+    line-height: 70%;
+    padding-left: 5%;
+  }
+  #subtitle {
+    font-size: 70%;
+  }
+  #name {
+    margin-top: 15%;
+    margin-left: 10%;
+  }
+  #menu {
+    width: 22%;
+    display: block;
+  }
+}
+
 #name {
   z-index: 1;
   display: inline-block;
   position: absolute;
-  margin-top: 15%;
   color: white;
-  font-size: 650%;
-  padding-left: 13%;
-  line-height: 40%;
   font-family: 'Yellowtail', cursive;
   text-align: center;
 }
 
 #subtitle {
-  font-size: 25%;
   font-family: 'Cutive Mono', monospace;
 }
 
 #menu {
-  display: flex;
-  flex-direction: column;
   height: 100%;
-  width: 22%;
   float: left;
   z-index: 1;
   position: fixed;
   background-color: #181818;
-  word-wrap: break-word;
 }
 
 #menu li {
@@ -40,14 +119,14 @@
 }
 
 .tab-content{
-  display: flex;
+  display: block;
   float: right;
   z-index: -1;
   overflow: hidden;
 }
 
 .tab-pane {
-  display: flex;
+  display: block;
   float: right;
   padding-left: 25%;
   padding-right: 5%;

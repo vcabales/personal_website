@@ -16,6 +16,9 @@
   #menu {
     display: none;
   }
+  #hamburger {
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 400px) and (max-width: 600px) {
@@ -34,6 +37,9 @@
   #menu {
     display: none;
   }
+  #hamburger {
+    display: block;
+  }
 }
 @media only screen and (min-width: 600px) and (max-width: 700px) {
   /*tablets */
@@ -51,6 +57,9 @@
   #menu {
     display: none;
   }
+  #hamburger {
+    display: block;
+  }
 }
 @media only screen and (min-width: 700px) and (max-width: 1000px) {
   #main_title {
@@ -67,6 +76,9 @@
   #menu {
     width: 30%;
     display: block;
+  }
+  #hamburger {
+    display: none;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -86,6 +98,9 @@
   #menu {
     width: 22%;
     display: block;
+  }
+  #hamburger {
+    display: none;
   }
 }
 
@@ -130,6 +145,27 @@
   float: right;
   padding-left: 25%;
   padding-right: 5%;
+}
+
+#hamburger {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-top: 3px;
+  padding-left: 10px;
+  width: 55px;
+  height: 45px;
+  position: absolute;
+  float: left;
+  z-index: 1;
+  background-color: #383838;
+  border-radius: 15%;
+}
+.hamburger-section {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    border-radius: 15%;
 }
 
 #home {

@@ -8,3 +8,13 @@ $('#menu a').on('hidden.bs.tab', function(event){
 });
 });
 
+$('#hamburger').click(function(){
+	$('#menu').toggle('menu-open')
+});
+
+$(window).resize(function(){
+	if ($(window).width() <= 800){
+		//look at window-width
+		//write condition to always have menu visible for certain widths
+	}
+})

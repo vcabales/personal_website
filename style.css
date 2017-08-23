@@ -15,9 +15,13 @@
   }
   #menu {
     display: none;
+    width: 70%;
   }
   #hamburger {
     display: block;
+  }
+  nav {
+    margin-top: 10%;
   }
 }
 
@@ -34,11 +38,15 @@
     margin-top: 20%;
     margin-left: -20%;
   }
-  #menu {
+ #menu {
     display: none;
+    width: 70%;
   }
   #hamburger {
     display: block;
+  }
+  nav {
+    margin-top: 10%;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 700px) {
@@ -56,9 +64,13 @@
   }
   #menu {
     display: none;
+    width: 70%;
   }
   #hamburger {
     display: block;
+  }
+  nav {
+    margin-top: 10%;
   }
 }
 @media only screen and (min-width: 700px) and (max-width: 1000px) {
@@ -74,8 +86,9 @@
     margin-left: 10%;
   }
   #menu {
-    width: 30%;
+    width: 31%;
     display: block;
+    visibility: visible;
   }
   #hamburger {
     display: none;
@@ -98,6 +111,7 @@
   #menu {
     width: 22%;
     display: block;
+    visibility: visible;
   }
   #hamburger {
     display: none;
@@ -123,7 +137,29 @@
   z-index: 1;
   position: fixed;
   background-color: #181818;
+  padding-top: 12%;
+  transition: background 750ms ease-in-out;
 }
+
+ #menu ul {
+  list-style-type: none;
+  border-top: solid white;
+  border-bottom: solid white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-width: thin;
+  margin-left: 10%;
+  margin-right: 12%;
+ }
+
+#menu ul a:link, a:visited {
+  color: white;
+ }
+
+#menu ul a:hover, a:active {
+  text-decoration: none;
+  border-bottom: solid white;
+ }
 
 #menu li {
   font-size: 150%;
@@ -131,6 +167,10 @@
   padding: 0%;
   margin: 0;
   font-family: 'Cutive Mono', monospace;
+}
+
+.menu-open #menu {
+
 }
 
 .tab-content{
@@ -157,8 +197,9 @@
   position: absolute;
   float: left;
   z-index: 1;
-  background-color: #383838;
+  background-color: #181818;
   border-radius: 15%;
+  cursor: pointer;
 }
 .hamburger-section {
     width: 35px;
@@ -179,27 +220,6 @@
   background-repeat: no-repeat;
   z-index: 0;
 }
-
- #menu ul {
-  list-style-type: none;
-  margin-top: 65%;
-  border-top: solid white;
-  border-bottom: solid white;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  border-width: thin;
-  margin-left: 10%;
-  margin-right: 12%;
- }
-
- #menu ul a:link, a:visited {
-  color: white;
- }
-
- #menu ul a:hover, a:active {
-  text-decoration: none;
-  border-bottom: solid white;
- }
 
  #profileContainer {
   width: 30%;
@@ -315,7 +335,8 @@
 }
 
 #resumeBody {
-  height: 200%
+  height: 200%;
+  width: 30%;
 }
 
 #sidebar {

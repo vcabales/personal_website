@@ -13,6 +13,7 @@ $(window).resize(checkMenu);
 });
 
 //launch function when hamburger is not visible
+//also input function that makes the menu disappear after clicking a selection 
 function checkMenu(){
 	if ($('#hamburger').attr('visibility') == 'hidden') {
 		$('#menu').attr('visibility', 'visible')

@@ -10,7 +10,7 @@
     font-size: 50%;
   }
   #name {
-    margin-top: 10%;
+    margin-top: 15%;
     margin-left: -30%;
   }
   #menu {
@@ -18,10 +18,13 @@
     width: 70%;
   }
   #hamburger {
-    display: block;
+    display: inline;
   }
   nav {
     margin-top: 10%;
+  }
+  #home {
+    background: url('img/coveredited1_phone_v.jpg');
   }
 }
 
@@ -43,10 +46,13 @@
     width: 70%;
   }
   #hamburger {
-    display: block;
+    display: inline;
   }
   nav {
     margin-top: 10%;
+  }
+  #home {
+    background: url('img/coveredited1_cstmcrop.jpg');
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 700px) {
@@ -67,10 +73,13 @@
     width: 70%;
   }
   #hamburger {
-    display: block;
+    display: inline;
   }
   nav {
     margin-top: 10%;
+  }
+  #home {
+    background: url('img/coveredited1_tablet.jpg');
   }
 }
 @media only screen and (min-width: 700px) and (max-width: 1000px) {
@@ -92,6 +101,9 @@
   }
   #hamburger {
     display: none;
+  }
+  #home {
+    background: url("img/coveredited1.jpg");
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -116,6 +128,9 @@
   #hamburger {
     display: none;
   }
+  #home {
+    background: url("img/coveredited1.jpg");
+  }
 }
 
 #name {
@@ -138,7 +153,11 @@
   position: fixed;
   background-color: #181818;
   padding-top: 12%;
-  transition: background 750ms ease-in-out;
+}
+
+.open #menu {
+  display: block;
+  visibility: visible;
 }
 
  #menu ul {
@@ -167,10 +186,6 @@
   padding: 0%;
   margin: 0;
   font-family: 'Cutive Mono', monospace;
-}
-
-.menu-open #menu {
-
 }
 
 .tab-content{
@@ -210,7 +225,6 @@
 }
 
 #home {
-  background: url("img/coveredited1.jpg");
   position: fixed;
   width: 100%;
   height: 100%;
@@ -219,6 +233,61 @@
   background-size: 100% 110%;
   background-repeat: no-repeat;
   z-index: 0;
+}
+
+#aboutContent {
+  text-align: left;
+  color: white;
+  background-color: rgba(0,0,0,0.8);
+  margin-top: 10%;
+  width: 75%;
+  margin-left: 15%;
+  border-radius: 1%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  z-index: 5;
+  display: block;
+}
+
+#aboutContent a {
+  text-decoration: none;
+  color: #ADD8E6;
+}
+
+#aboutMe {
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: url("img/aboutCover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: scroll;
+}
+
+#titleContainer {
+  width: 100%;
+}
+
+#aboutTitle {
+  padding-left: 10%;
+  font-family: 'Homemade Apple', cursive;
+  margin-top: 7%;
+  line-height: 0%;
+}
+
+#aboutText {
+  padding-top: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: left;
+  font-family: 'Josefin Slab', serif;
+  font-size: 110%;
+}
+
+#aboutText h1, #photoContent h1 {
+  font-family: 'Homemade Apple', cursive;
 }
 
  #profileContainer {
@@ -277,61 +346,6 @@
 }
 #LGBTAsianDiv {
   width: 30%;
-}
-
-#aboutContent {
-  text-align: left;
-  color: white;
-  background-color: rgba(0,0,0,0.8);
-  margin-top: 10%;
-  width: 75%;
-  margin-left: 15%;
-  border-radius: 1%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  z-index: 5;
-  display: block;
-}
-
-#aboutContent a {
-  text-decoration: none;
-  color: #ADD8E6;
-}
-
-#aboutMe {
-  top: 0;
-  left: 0;
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  background: url("img/aboutCover.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: scroll;
-}
-
-#titleContainer {
-  width: 100%;
-}
-
-#aboutTitle {
-  padding-left: 10%;
-  font-family: 'Homemade Apple', cursive;
-  margin-top: 7%;
-  line-height: 0%;
-}
-
-#aboutText {
-  padding-top: 3%;
-  padding-left: 10%;
-  padding-right: 10%;
-  text-align: left;
-  font-family: 'Josefin Slab', serif;
-  font-size: 110%;
-}
-
-#aboutText h1, #photoContent h1 {
-  font-family: 'Homemade Apple', cursive;
 }
 
 #resumeBody {

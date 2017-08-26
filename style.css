@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat|Homemade+Apple|Josefin+Slab|Ranga');
 
 @media only screen and (max-width: 400px) {
+  #title {
+    padding-left: 5%;
+  }
   #main_title {
     font-size: 100%;
     line-height: 70%;
@@ -25,6 +28,21 @@
   }
   #home {
     background: url('img/coveredited1_phone_v.jpg');
+  }
+  #aboutMe {
+    background: url("img/aboutCover_phone_v.jpg");
+  }
+  #code {
+    background: url("img/codeCover_phone_v.jpg");
+  }
+  #writing {
+    background: url("img/writingCover_phone_v.jpg");
+  }
+  #photo {
+    background: url("img/photoCover_phone_v.jpg");
+  }
+  #video {
+    background: url("img/videoCover_phone_v.jpg");
   }
 }
 
@@ -54,6 +72,21 @@
   #home {
     background: url('img/coveredited1_cstmcrop.jpg');
   }
+  #aboutMe {
+    background: url("img/aboutCover_tablet.jpg");
+  }
+  #code {
+    background: url("img/codeCover_tablet.jpg");
+  }
+  #writing {
+    background: url("img/writingCover_tablet.jpg");
+  }
+  #photo {
+    background: url("img/photoCover_tablet.jpg");
+  }
+  #video {
+    background: url("img/videoCover_tablet.jpg");
+  }
 }
 @media only screen and (min-width: 600px) and (max-width: 700px) {
   /*tablets */
@@ -81,6 +114,21 @@
   #home {
     background: url('img/coveredited1_tablet.jpg');
   }
+  #aboutMe {
+    background: url("img/aboutCover_tablet.jpg");
+  }
+  #code {
+    background: url("img/codeCover_tablet.jpg");
+  }
+  #writing {
+    background: url("img/writingCover_tablet.jpg");
+  }
+  #photo {
+    background: url("img/photoCover_tablet.jpg");
+  }
+  #video {
+    background: url("img/videoCover_tablet.jpg");
+  }
 }
 @media only screen and (min-width: 700px) and (max-width: 1000px) {
   #main_title {
@@ -104,6 +152,21 @@
   }
   #home {
     background: url("img/coveredited1.jpg");
+  }
+  #aboutMe {
+    background: url("img/aboutCover.jpg");
+  }
+  #code {
+    background: url("img/codeCover.jpg");
+  }
+  #writing {
+    background: url("img/writingCover.jpg");
+  }
+  #photo {
+    background: url("img/photoCover.jpg");
+  }
+  #video {
+    background: url("img/videoCover.jpg");
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -131,6 +194,21 @@
   #home {
     background: url("img/coveredited1.jpg");
   }
+  #aboutMe {
+    background: url("img/aboutCover_tablet.jpg");
+  }
+  #code {
+    background: url("img/codeCover.jpg");
+  }
+  #writing {
+    background: url("img/writingCover.jpg");
+  }
+  #photo {
+    background: url("img/photoCover.jpg");
+  }
+  #video {
+    background: url("img/videoCover.jpg");
+  }
 }
 
 #name {
@@ -155,7 +233,7 @@
   padding-top: 12%;
 }
 
-.open #menu {
+.open #menu { /*I don't think this does shit. Figure out how to make it do shit.*/
   display: block;
   visibility: visible;
 }
@@ -209,7 +287,7 @@
   padding-left: 10px;
   width: 55px;
   height: 45px;
-  position: absolute;
+  position: fixed;
   float: left;
   z-index: 1;
   background-color: #181818;
@@ -260,7 +338,6 @@
   position: fixed;
   height: 100%;
   width: 100%;
-  background: url("img/aboutCover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   overflow: scroll;
@@ -464,20 +541,18 @@ hr {
   margin-top: -3%;
 }
 
-#code {
+#code, #writing, #video, #photo {
   top: 0;
   left: 0;
   position: fixed;
   width: 100%;
   height: 100%;
-  background: url("img/codeCover.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   overflow: scroll;
   font-family: 'Josefin Slab', serif;
   font-size: 110%;
 }
-
 
 #programmingLang {
   border-top: solid;
@@ -497,15 +572,6 @@ hr {
 #code h1 {
   font-family: 'Homemade Apple', cursive;
 } 
-
-#codeContent {
-  background-color: rgba(0,0,0,0.5);
-  color: white;
-  margin-top: 5%;
-  text-align: justify;
-  padding-bottom: 5%;
-  margin-bottom: 5%;
-}
 
 #codeContent h2 {
   margin-bottom: 2%;
@@ -573,30 +639,6 @@ hr {
   margin-right: 10%;
 }
 
-#writing {
-  overflow: scroll;
-  left: 0;
-  top: 0;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background: url("img/writingCover.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  font-family: 'Josefin Slab', serif;
-  font-size: 110%;
-}
-/*
-#photo {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: url("img/photoCover.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}*/
 #writing h1 {
   font-family: 'Homemade Apple', cursive;
   padding-top: 3%;
@@ -622,7 +664,7 @@ hr {
   font-size: 110%;
 }
 
-#writingContent {
+#writingContent, #codeContent {
   background-color: rgba(0,0,0,0.7);
   color: white;
   margin-top: 5%;
@@ -657,18 +699,7 @@ hr {
   font-size: 90%;
 }
 
-#photo {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: url("img/photoCover.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
-
-#photoContent {
+#photoContent, #videoContent {
   text-align: justify;
   color: white;
   background-color: rgba(0,0,0,0.8);
@@ -732,4 +763,3 @@ hr {
   width: 100%;
   height: 100%;
   border-radius: 100%;
-}

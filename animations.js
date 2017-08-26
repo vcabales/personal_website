@@ -6,15 +6,16 @@ $('#menu a').click(function (e) {
 $('#menu a').on('hidden.bs.tab', function(event){
 	$(event.target).removeClass('active')
 });
-});
-
 $('#hamburger').click(function(){
 	$('#menu').toggle('menu-open')
 });
+$(window).resize(checkMenu);
+});
 
-$(window).resize(function(){
-	if ($(window).width() <= 800){
-		//look at window-width
-		//write condition to always have menu visible for certain widths
+//launch function when hamburger is not visible
+function checkMenu(){
+	if ($('#hamburger').attr('visibility') == 'hidden') {
+		$('#menu').attr('visibility', 'visible')
+		$('#menu').attr('display', 'block')
 	}
-})
+}

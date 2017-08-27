@@ -44,6 +44,29 @@
   #video {
     background: url("img/videoCover_phone_v.jpg");
   }
+  #aboutContent {
+    width: 130%;
+    margin-left: -30%;
+    margin-top: 20%;
+  }
+  #aboutTitle {
+    font-size: 150%;
+  }
+  #codeContent, #writingContent {
+    margin-left: -30%;
+    width: 130%;
+  }
+  #photoContent, #videoContent {
+    width: 115%;
+    margin-left: -15%;
+  }
+  #photoContent {
+    height: 100%;
+  }
+  #photoRedirect {
+    width: 160%;
+    margin-left: 10%;
+  }
 }
 
 @media only screen and (min-width: 400px) and (max-width: 600px) {
@@ -87,6 +110,29 @@
   #video {
     background: url("img/videoCover_tablet.jpg");
   }
+  #aboutContent {
+    width: 130%;
+    margin-left: -30%;
+    margin-top: 20%;
+  }
+  #aboutTitle {
+    font-size: 150%;
+  }
+  #codeContent, #writingContent {
+    margin-left: -30%;
+    width: 130%;
+  }
+  #photoContent, #videoContent {
+    width: 115%;
+    margin-left: -15%;
+  }
+  #photoContent {
+    height: 145%;
+  }
+  #photoRedirect {
+    width: 160%;
+    margin-left: 10%;
+  }
 }
 @media only screen and (min-width: 600px) and (max-width: 700px) {
   /*tablets */
@@ -129,6 +175,29 @@
   #video {
     background: url("img/videoCover_tablet.jpg");
   }
+  #aboutContent {
+    width: 130%;
+    margin-left: -30%;
+    margin-top: 20%;
+  }
+  #aboutTitle {
+    font-size: 200%;
+  }
+  #codeContent, #writingContent {
+    margin-left: -30%;
+    width: 130%;
+  }
+  #photoContent, #videoContent {
+    width: 115%;
+    margin-left: -20%;
+  }
+  #photoContent {
+    height: 140%;
+  }
+  #photoRedirect {
+    width: 160%;
+    margin-left: 10%;
+  }
 }
 @media only screen and (min-width: 700px) and (max-width: 1000px) {
   #main_title {
@@ -167,6 +236,27 @@
   }
   #video {
     background: url("img/videoCover.jpg");
+  }
+  #aboutContent {
+    width: 85%;
+    margin-left: 15%;
+    margin-top: 10%;
+  }
+  #codeContent, #writingContent {
+    margin-left: 15%;
+  }
+  #photoContent, #videoContent {
+    width: 85%;
+    margin-left: 15%;
+    height: 90%;
+  }
+  #photoRedirect {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+    width: 90%;
+    margin-left: 5%;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -209,6 +299,27 @@
   #video {
     background: url("img/videoCover.jpg");
   }
+  #aboutContent {
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  #codeContent, #writingContent {
+    margin-left: 2%;
+  }
+  #photoContent, #videoContent {
+    width: 85%;
+    margin-left: 10%;
+  }
+  #photoRedirect {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+    width: 90%;
+    margin-left: 5%;
+    height: 90%;
+  }
 }
 
 #name {
@@ -231,11 +342,6 @@
   position: fixed;
   background-color: #181818;
   padding-top: 12%;
-}
-
-.open #menu { /*I don't think this does shit. Figure out how to make it do shit.*/
-  display: block;
-  visibility: visible;
 }
 
  #menu ul {
@@ -284,9 +390,9 @@
   margin-top: 10px;
   margin-left: 10px;
   padding-top: 3px;
-  padding-left: 10px;
-  width: 55px;
-  height: 45px;
+  padding-left: 5px;
+  width: 35px;
+  height: 35px;
   position: fixed;
   float: left;
   z-index: 1;
@@ -295,10 +401,10 @@
   cursor: pointer;
 }
 .hamburger-section {
-    width: 35px;
-    height: 5px;
+    width: 25px;
+    height: 3px;
     background-color: white;
-    margin: 6px 0;
+    margin: 5px 0;
     border-radius: 15%;
 }
 
@@ -317,9 +423,6 @@
   text-align: left;
   color: white;
   background-color: rgba(0,0,0,0.8);
-  margin-top: 10%;
-  width: 75%;
-  margin-left: 15%;
   border-radius: 1%;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -393,11 +496,6 @@
   width: 20%;
 }
 
-#email {
-  margin-right: 5%;
-}
-
-
 .media {
   margin-bottom: 3%;
   width:85%;
@@ -470,7 +568,7 @@
 }
 
 #resume a {
-    color: #1874CD;
+  color: #1874CD;
 }
 
 #resumeContent h2 {
@@ -506,14 +604,6 @@
   font-family: 'Arvo', serif;
   font-size: 115%;
   font-weight: bold;
-}
-
-.col-xs-4 {
-  padding: 0;
-}
-
-.col-md-2 {
-  padding: 0;
 }
 
 hr {
@@ -671,7 +761,6 @@ hr {
   text-align: justify;
   padding-bottom: 5%;
   margin-bottom: 5%;
-  margin-left: 2%;
 }
 
 #writingRelCourses {
@@ -704,9 +793,6 @@ hr {
   color: white;
   background-color: rgba(0,0,0,0.8);
   margin-top: 5%;
-  width: 85%;
-  margin-left: 10%;
-  height: 90%;
   border-radius: 1%;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -733,14 +819,8 @@ hr {
 }
 
 #photoRedirect {
-  display: flex;
-  display: -webkit-flex;
-  -webkit-flex-flow: row;
-  flex-flow: row;
   justify-content: center;
   -webkit-justify-content: center;
-  width: 90%;
-  margin-left: 5%;
 }
 
 #photoContent a {

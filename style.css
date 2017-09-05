@@ -572,20 +572,6 @@
   font-family: 'Nova Mono', monospace;
 }
 
-/*
- #profileContainer {
-  width: 30%;
-  margin-top: -15%;
-  margin-left: 35%;
- }
-
-#profilePhoto {
-  z-index: 5;
-  width: 100%;
-  height: auto;
-  border-radius: 100%;
-} */
-
 #icons {
   z-index: -1;
   display: block;
@@ -609,11 +595,6 @@
   width: 40%;
 }
 
-#resumeBody {
-  height: 200%;
-  width: 120%;
-}
-
 #resumeBody h1 {
   font-family: 'Yellowtail', cursive;
 }
@@ -622,73 +603,20 @@
   font-family: 'Cutive Mono', monospace;
 }
 
-#sidebar {
-  width: 25%;
-  height: 100%;
-  border-style: outset;
-  display: block;
-  padding-left: 1%;
-  font-size: 90%;
-  margin-left: 1%;
-  margin-top: 1.5%;
-  background-color: #F5F5F5;
+#resumeBody h4 {
   font-family: 'Lato', sans-serif;
-  word-wrap: break-word;
-  padding-bottom: 1%;
-}
-
-#resumeContent {
-  margin-left: 1%;
-  margin-right: 2%;
-  display: block;
-  height: 100%;
-  width: 65%;
-  border-style: outset;
-  margin-top: 1.5%;
-  padding: 1%;
-  padding-bottom: 0.5%;
-  font-size: 80%;
-  font-family: 'Lato', sans-serif;
-  background-color: #F5F5F5;
-  word-wrap: break-word;
 }
 
 .resume-section {
   margin-top: 2%;
 }
 
-#resume {
-  background-color: #DCDCDC;
-}
-
 #resume a {
   color: #1874CD;
 }
 
-#sidebar h2 {
-  font-family: 'Cutive Mono', monospace;
-  font-size: 300%;
-}
-
-#sidebar h4 {
-  font-family: 'Cutive Mono', monospace;
-  font-size: 210%;
-}
-
-#sidebar hr {
-  margin-bottom: 5%;
-  margin-top: -3%;
-  margin-right: 2%;
-}
-
 #courses {
   padding-right: 1%;
-}
-
-hr {
-  padding: 0;
-  margin: 0;
-  border-bottom: rgba(0,0,0,0.3) solid 1px;
 }
 
 .resumeDates {
@@ -697,11 +625,7 @@ hr {
 }
 
 #resumeBody {
-  width: 110%;
-}
-
-#extra {
-  margin-top: -3%;
+  width: 100%;
 }
 
 #code, #writing, #video, #photo {
@@ -776,7 +700,6 @@ hr {
   margin-top: 5%;
   float: left;
   display: block;
-  padding-right: 5%;
   padding-bottom: 7%;
   border-bottom: solid;
 }
@@ -785,7 +708,6 @@ hr {
   float: right;
   width: 70%;
   display: block;
-  padding-left: 2%;
 }
 
 #workzoneImg {

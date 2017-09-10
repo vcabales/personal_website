@@ -607,12 +607,17 @@
   margin-right: 5%;
 }
 
+#resumeTitle {
+  float: left;
+  padding-right: 0;
+}
+
 #contactInfo {
-  margin-left: 39%;
   list-style-type: none;
   border-left-style: solid;
   padding-left: 20px;
-  margin-top: -8%;
+  float: left;
+  margin-left: 20px;
 }
 
 #contactInfo li {
@@ -621,9 +626,19 @@
 }
 
 #resumeColumns {
-  -webkit-column-count: 2; 
-  -moz-column-count: 2; 
-  column-count: 2;
+  width: 100%;
+  display: inline-block;
+}
+
+#resumeColumn1 {
+  float: left;
+  width: 64%;
+  margin-left: 1%;
+}
+#resumeColumn2 {
+  width: 30%;
+  float: right;
+  margin-left: 1%;
 }
 
 #resumeHead {
@@ -632,20 +647,22 @@
   background-color: #ADD8E6;
   margin-left: -5%;
   padding-top: 5%;
-  width: 120%;
+  width: 115%;
   margin-bottom: 2%;
+  display: inline-block;
+  top: 0;
+  right: 0;
 }
 
 #resumeHead h1 {
-  margin-bottom: -0.5%;
   font-size: 130%;
-  padding-left: 5%;
+  margin-bottom: -1%;
 }
 
 #resumeHead p {
   font-family: 'Cutive Mono', monospace;
-  font-size: 90%;
-  margin-left: 5.5%;
+  font-size: 87%;
+  margin-left: 5px;
 }
 
 #resumeBody h1 {
@@ -670,17 +687,12 @@
   font-size: 100%;
 }
 
-.resume-section {
-  margin-top: 2%;
+#resumeBody ul {
+  list-style-type: none;
 }
 
 #resume a {
   color: #1874CD;
-}
-
-.resumeDates {
-  margin-bottom: 1em;
-  font-size: 85%;
 }
 
 #code, #writing, #video, #photo, #resume {
@@ -849,7 +861,7 @@
   text-align: justify;
   color: white;
   background-color: rgba(0,0,0,0.8);
-  margin-top: 5%;
+  margin-top: 5%; /*adjust and add a margin-left*/
   border-radius: 1%;
   padding-top: 5%;
   padding-bottom: 5%;

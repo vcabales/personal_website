@@ -72,22 +72,27 @@
     margin-top: 25%;
     margin-left: -30%;
   }
-  #ayalaDiv {
+  .portfolio-section {
     width: 60%;
   }
-  #ayala {
+  .media-object {
     margin-left: 3%;
     width: 150%;
   }
-  #LGBTAsianDiv {
-    width: 60%;
+  #winnebagoText {
+    margin-top: 70%;
   }
-  #SAGC {
-    margin-left: 3%;
-    width: 150%;
+  #restaurantText {
+    margin-top: 63%;
   }
   #LGBT {
     margin-top: 58%;
+  }
+  #workzoneImg {
+    width: 50%;
+  }
+  #workzoneText {
+    margin-left: -85%;
   }
 }
 
@@ -160,22 +165,27 @@
     margin-top: 37%;
     margin-left: -60%;
   }
-  #ayalaDiv {
+  .portfolio-section {
     width: 60%;
   }
-  #ayala {
+  .media-object {
     margin-left: 3%;
     width: 150%;
   }
-  #LGBTAsianDiv {
-    width: 60%;
+  #winnebagoText {
+    margin-top: 70%;
   }
-  #SAGC {
-    margin-left: 3%;
-    width: 150%;
+  #restaurantText {
+    margin-top: 63%;
   }
   #LGBT {
     margin-top: 58%;
+  }
+  #workzoneImg {
+    width: 50%;
+  }
+  #workzoneText {
+    margin-left: -85%;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 700px) {
@@ -247,22 +257,40 @@
     margin-top: 37%;
     margin-left: -60%;
   }
-  #ayalaDiv {
+  .portfolio-section {
     width: 60%;
   }
-  #ayala {
+  .media-object {
     margin-left: 3%;
     width: 150%;
   }
-  #LGBTAsianDiv {
-    width: 60%;
+  #winnebagoText {
+    margin-top: 70%;
   }
-  #SAGC {
-    margin-left: 3%;
-    width: 150%;
+  #restaurantText {
+    margin-top: 63%;
   }
   #LGBT {
     margin-top: 58%;
+  }
+  #workzoneImg {
+    width: 70%;
+    margin-left: 3%;
+  }
+  #workzoneText {
+    margin-left: -82%;
+    margin-top: 91%;
+    margin-right: 10%;
+    width: 200%;
+  }
+  #KnightLabLogo{
+    margin-top: 2%;
+    width: 170%;
+  }
+  #SceneVRText {
+    padding-left: 8%;
+    padding-right: 2%;
+    margin-top: 95%;
   }
 }
 @media only screen and (min-width: 700px) and (max-width: 1000px) {
@@ -329,22 +357,42 @@
     margin-top: 37%;
     margin-left: -60%;
   }
-  #ayalaDiv {
+  #winnebagoText {
+    margin-top: 70%;
+  }
+  #restaurantText {
+    margin-top: 63%;
+  }
+  .portfolio-section {
     width: 60%;
   }
-  #ayala {
-    margin-left: 3%;
-    width: 150%;
-  }
-  #LGBTAsianDiv {
-    width: 60%;
-  }
-  #SAGC {
+  .media-object {
     margin-left: 3%;
     width: 150%;
   }
   #LGBT {
     margin-top: 58%;
+  }
+  #workzoneImg {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  #workzoneText {
+    margin-left: -82%;
+    margin-top: 85%;
+    margin-right: 8%;
+    width: 200%;
+  }
+  #KnightLabLogo{
+    margin-top: 2%;
+    width: 130%;
+    margin-left: 15%;
+  }
+  #SceneVRText {
+    padding-left: 8%;
+    padding-right: 1%;
+    margin-top: 80%;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -413,19 +461,18 @@
     margin-left: 3%;
     margin-right: 3%;
   }
-  #ayalaDiv {
+  .portfolio-section {
     width: 30%;
   }
-  #ayala {
+  .media-object {
     margin: 0;
     width: 100%;
   }
-  #LGBTAsianDiv {
-    width: 30%;
+  #workzoneImg {
+    width: 65%;
   }
-  #SAGC {
-    margin: 0;
-    width: 100%;
+  #workzoneText {
+    margin-left: -15%;
   }
 }
 
@@ -514,11 +561,11 @@
   cursor: pointer;
 }
 .hamburger-section {
-    width: 20px;
-    height: 2px;
-    background-color: white;
-    margin: 4px 0;
-    border-radius: 15%;
+  width: 20px;
+  height: 2px;
+  background-color: white;
+  margin: 4px 0;
+  border-radius: 15%;
 }
 
 #home {
@@ -552,8 +599,8 @@
   top: 0;
   left: 0;
   position: fixed;
-  height: 100%;
-  width: 100%;
+  height: 105%;
+  width: 103%;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: scroll;
@@ -698,8 +745,8 @@
 #code, #writing, #video, #photo, #resume {
   left: 0;
   position: fixed;
-  width: 100%;
-  height: 100%;
+  width: 103%;
+  height: 105%;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   overflow: scroll;
@@ -742,52 +789,27 @@
   margin-bottom: 5%;
 }
 
-#currentProjects {
-  padding-right: 10%;
+#currentProjects h2 {
   padding-left: 10%;
-  padding-bottom: 10%;
-}
-
-#sceneVR {
-  display: inline-block;
-}
-
-#sceneVRText {
-  width: 70%;
-  float: right;
 }
 
 #KnightLabLogo {
   background-color: #F0FFFF;
-  width:25%;
-  float: left;
 } 
 
-#workzone {
-  margin-top: 5%;
-  float: left;
-  display: block;
-  padding-bottom: 7%;
-  border-bottom: solid;
-}
-
-#workzoneText {
-  float: right;
-  width: 70%;
-  display: block;
-}
-
 #workzoneImg {
-  width: 25%;
-  float: left;
   background-color: #F0FFFF;
-  display: block;
+}
+
+#workzoneLink {
+  padding: 0;
 }
 
 #codeRelCourses {
-  border-bottom: solid;
   margin-left: 10%;
   margin-right: 10%;
+  border-top: solid;
+  padding-top: 3%;
 }
 
 #writingIntro {

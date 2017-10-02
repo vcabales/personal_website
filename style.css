@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Yellowtail|Arvo');
-@import url('https://fonts.googleapis.com/css?family=Caveat|Homemade+Apple|Josefin+Slab|Ranga');
+@import url('https://fonts.googleapis.com/css?family=Ranga|Nova+Mono|Lato:300|Open+Sans+Condensed:300');
 
 @media only screen and (max-width: 400px) {
+  #title {
+    padding-left: 5%;
+  }
   #main_title {
     font-size: 100%;
     line-height: 70%;
@@ -17,7 +20,7 @@
     display: none;
     width: 70%;
   }
-  #hamburger {
+  #hamburger, #menu-overlay {
     display: inline;
   }
   nav {
@@ -25,6 +28,71 @@
   }
   #home {
     background: url('img/coveredited1_phone_v.jpg');
+  }
+  #aboutMe {
+    background: url("img/aboutCover_phone_v.jpg");
+  }
+  #code {
+    background: url("img/codeCover_phone_v.jpg");
+  }
+  #writing {
+    background: url("img/writingCover_phone_v.jpg");
+  }
+  #photo {
+    background: url("img/photoCover_phone_v.jpg");
+  }
+  #video {
+    background: url("img/videoCover_phone_v.jpg");
+  }
+  #aboutContent {
+    width: 130%;
+    margin-left: -30%;
+    margin-top: 20%;
+  }
+  #aboutTitle {
+    font-size: 150%;
+  }
+  #codeContent, #writingContent {
+    margin-left: -30%;
+    width: 130%;
+    margin-top: 20%;
+  }
+  #photoContent, #videoContent {
+    width: 115%;
+    margin-left: -15%;
+  }
+  #photoContent {
+    height: 100%;
+  }
+  #photoRedirect {
+    width: 160%;
+    margin-left: 10%;
+  }
+  .media-body {
+    margin-top: 25%;
+    margin-left: -30%;
+  }
+  .portfolio-section {
+    width: 60%;
+  }
+  .media-object {
+    margin-left: 3%;
+    width: 150%;
+  }
+  #winnebagoText {
+    margin-top: 70%;
+  }
+  #restaurantText {
+    margin-top: 63%;
+  }
+  #LGBT {
+    margin-top: 58%;
+  }
+  #workzoneImg {
+    width: 50%;
+  }
+  #workzoneText {
+    margin-left: -85%;
   }
 }
 
@@ -45,7 +113,7 @@
     display: none;
     width: 70%;
   }
-  #hamburger {
+  #hamburger, #menu-overlay {
     display: inline;
   }
   nav {
@@ -53,6 +121,71 @@
   }
   #home {
     background: url('img/coveredited1_cstmcrop.jpg');
+  }
+  #aboutMe {
+    background: url("img/aboutCover_tablet.jpg");
+  }
+  #code {
+    background: url("img/codeCover_tablet.jpg");
+  }
+  #writing {
+    background: url("img/writingCover_tablet.jpg");
+  }
+  #photo {
+    background: url("img/photoCover_tablet.jpg");
+  }
+  #video {
+    background: url("img/videoCover_tablet.jpg");
+  }
+  #aboutContent {
+    width: 130%;
+    margin-left: -30%;
+    margin-top: 20%;
+  }
+  #aboutTitle {
+    font-size: 150%;
+  }
+  #codeContent, #writingContent {
+    margin-left: -30%;
+    width: 130%;
+    margin-top: 20%;
+  }
+  #photoContent, #videoContent {
+    width: 115%;
+    margin-left: -15%;
+  }
+  #photoContent {
+    height: 145%;
+  }
+  #photoRedirect {
+    width: 160%;
+    margin-left: 10%;
+  }
+  .media-body {
+    margin-top: 37%;
+    margin-left: -60%;
+  }
+  .portfolio-section {
+    width: 60%;
+  }
+  .media-object {
+    margin-left: 3%;
+    width: 150%;
+  }
+  #winnebagoText {
+    margin-top: 70%;
+  }
+  #restaurantText {
+    margin-top: 63%;
+  }
+  #LGBT {
+    margin-top: 58%;
+  }
+  #workzoneImg {
+    width: 50%;
+  }
+  #workzoneText {
+    margin-left: -85%;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 700px) {
@@ -72,7 +205,7 @@
     display: none;
     width: 70%;
   }
-  #hamburger {
+  #hamburger, #menu-overlay {
     display: inline;
   }
   nav {
@@ -80,6 +213,84 @@
   }
   #home {
     background: url('img/coveredited1_tablet.jpg');
+  }
+  #aboutMe {
+    background: url("img/aboutCover_tablet.jpg");
+  }
+  #code {
+    background: url("img/codeCover_tablet.jpg");
+  }
+  #writing {
+    background: url("img/writingCover_tablet.jpg");
+  }
+  #photo {
+    background: url("img/photoCover_tablet.jpg");
+  }
+  #video {
+    background: url("img/videoCover_tablet.jpg");
+  }
+  #aboutContent {
+    width: 130%;
+    margin-left: -30%;
+    margin-top: 20%;
+  }
+  #aboutTitle {
+    font-size: 200%;
+  }
+  #codeContent, #writingContent {
+    margin-left: -30%;
+    width: 130%;
+    margin-top: 20%;
+  }
+  #photoContent, #videoContent {
+    width: 115%;
+    margin-left: -20%;
+  }
+  #photoContent {
+    height: 140%;
+  }
+  #photoRedirect {
+    width: 160%;
+    margin-left: 10%;
+  }
+  .media-body {
+    margin-top: 37%;
+    margin-left: -60%;
+  }
+  .portfolio-section {
+    width: 60%;
+  }
+  .media-object {
+    margin-left: 3%;
+    width: 150%;
+  }
+  #winnebagoText {
+    margin-top: 70%;
+  }
+  #restaurantText {
+    margin-top: 63%;
+  }
+  #LGBT {
+    margin-top: 58%;
+  }
+  #workzoneImg {
+    width: 70%;
+    margin-left: 3%;
+  }
+  #workzoneText {
+    margin-left: -82%;
+    margin-top: 91%;
+    margin-right: 10%;
+    width: 200%;
+  }
+  #KnightLabLogo{
+    margin-top: 2%;
+    width: 170%;
+  }
+  #SceneVRText {
+    padding-left: 8%;
+    padding-right: 2%;
+    margin-top: 95%;
   }
 }
 @media only screen and (min-width: 700px) and (max-width: 1000px) {
@@ -99,11 +310,89 @@
     display: block;
     visibility: visible;
   }
-  #hamburger {
+  #hamburger, #menu-overlay {
     display: none;
   }
   #home {
     background: url("img/coveredited1.jpg");
+  }
+  #aboutMe {
+    background: url("img/aboutCover.jpg");
+  }
+  #code {
+    background: url("img/codeCover.jpg");
+  }
+  #writing {
+    background: url("img/writingCover.jpg");
+  }
+  #photo {
+    background: url("img/photoCover.jpg");
+  }
+  #video {
+    background: url("img/videoCover.jpg");
+  }
+  #aboutContent {
+    width: 85%;
+    margin-left: 15%;
+    margin-top: 10%;
+  }
+  #codeContent, #writingContent {
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+  #photoContent, #videoContent {
+    width: 85%;
+    margin-left: 15%;
+    height: 90%;
+  }
+  #photoRedirect {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .media-body {
+    margin-top: 37%;
+    margin-left: -60%;
+  }
+  #winnebagoText {
+    margin-top: 70%;
+  }
+  #restaurantText {
+    margin-top: 63%;
+  }
+  .portfolio-section {
+    width: 60%;
+  }
+  .media-object {
+    margin-left: 3%;
+    width: 150%;
+  }
+  #LGBT {
+    margin-top: 58%;
+  }
+  #workzoneImg {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  #workzoneText {
+    margin-left: -82%;
+    margin-top: 85%;
+    margin-right: 8%;
+    width: 200%;
+  }
+  #KnightLabLogo{
+    margin-top: 2%;
+    width: 130%;
+    margin-left: 15%;
+  }
+  #SceneVRText {
+    padding-left: 8%;
+    padding-right: 1%;
+    margin-top: 80%;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -125,11 +414,65 @@
     display: block;
     visibility: visible;
   }
-  #hamburger {
+  #hamburger, #menu-overlay {
     display: none;
   }
   #home {
     background: url("img/coveredited1.jpg");
+  }
+  #aboutMe {
+    background: url("img/aboutCover_tablet.jpg");
+  }
+  #code {
+    background: url("img/codeCover.jpg");
+  }
+  #writing {
+    background: url("img/writingCover.jpg");
+  }
+  #photo {
+    background: url("img/photoCover.jpg");
+  }
+  #video {
+    background: url("img/videoCover.jpg");
+  }
+  #aboutContent {
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  #codeContent, #writingContent {
+    margin-left: 2%;
+    margin-top: 5%;
+  }
+  #photoContent, #videoContent {
+    width: 85%;
+    margin-left: 10%;
+  }
+  #photoRedirect {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+    width: 90%;
+    margin-left: 5%;
+    height: 90%;
+  }
+  .media-body {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .portfolio-section {
+    width: 30%;
+  }
+  .media-object {
+    margin: 0;
+    width: 100%;
+  }
+  #workzoneImg {
+    width: 65%;
+  }
+  #workzoneText {
+    margin-left: -15%;
   }
 }
 
@@ -153,11 +496,6 @@
   position: fixed;
   background-color: #181818;
   padding-top: 12%;
-}
-
-.open #menu {
-  display: block;
-  visibility: visible;
 }
 
  #menu ul {
@@ -202,26 +540,32 @@
   padding-right: 5%;
 }
 
-#hamburger {
-  margin-top: 10px;
-  margin-left: 10px;
-  padding-top: 3px;
-  padding-left: 10px;
-  width: 55px;
-  height: 45px;
-  position: absolute;
-  float: left;
-  z-index: 1;
+#menu-overlay {
+  position: fixed;
+  width: 100%;
+  height: 6%;
   background-color: #181818;
-  border-radius: 15%;
+  margin: 0;
+  z-index: 1;
+}
+
+#hamburger {
+  margin-top: 5px;
+  margin-left: 5px;
+  padding-top: 3px;
+  width: 35px;
+  height: 35px;
+  position: fixed;
+  float: left;
+  z-index: 2;
   cursor: pointer;
 }
 .hamburger-section {
-    width: 35px;
-    height: 5px;
-    background-color: white;
-    margin: 6px 0;
-    border-radius: 15%;
+  width: 20px;
+  height: 2px;
+  background-color: white;
+  margin: 4px 0;
+  border-radius: 15%;
 }
 
 #home {
@@ -239,9 +583,6 @@
   text-align: left;
   color: white;
   background-color: rgba(0,0,0,0.8);
-  margin-top: 10%;
-  width: 75%;
-  margin-left: 15%;
   border-radius: 1%;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -258,9 +599,8 @@
   top: 0;
   left: 0;
   position: fixed;
-  height: 100%;
-  width: 100%;
-  background: url("img/aboutCover.jpg");
+  height: 105%;
+  width: 103%;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: scroll;
@@ -272,8 +612,8 @@
 
 #aboutTitle {
   padding-left: 10%;
-  font-family: 'Homemade Apple', cursive;
-  margin-top: 7%;
+  font-family: 'Nova Mono', monospace;
+  margin-top: 5%;
   line-height: 0%;
 }
 
@@ -282,25 +622,12 @@
   padding-left: 10%;
   padding-right: 10%;
   text-align: left;
-  font-family: 'Josefin Slab', serif;
-  font-size: 110%;
+  font-family: 'Lato', sans-serif;
+  font-size: 105%;
 }
 
 #aboutText h1, #photoContent h1 {
-  font-family: 'Homemade Apple', cursive;
-}
-
- #profileContainer {
-  width: 30%;
-  margin-top: -15%;
-  margin-left: 35%;
- }
-
-#profilePhoto {
-  z-index: 5;
-  width: 100%;
-  height: auto;
-  border-radius: 100%;
+  font-family: 'Nova Mono', monospace;
 }
 
 #icons {
@@ -316,11 +643,6 @@
   width: 20%;
 }
 
-#email {
-  margin-right: 5%;
-}
-
-
 .media {
   margin-bottom: 3%;
   width:85%;
@@ -329,155 +651,108 @@
 
 .media-body {
   width: 40%;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-right: 5%;
 }
 
-#ayalaDiv {
-  width: 30%;
-}
-#ayala {
-  margin: 0;
-  width: 100%;
-}
-#SAGC {
-  margin: 0;
-  width: 100%;
-}
-#LGBTAsianDiv {
-  width: 30%;
+#resumeTitle {
+  float: left;
+  padding-right: 0;
 }
 
-#resumeBody {
-  height: 200%;
-  width: 30%;
+#contactInfo {
+  list-style-type: none;
+  border-left-style: solid;
+  padding-left: 20px;
+  float: left;
+  margin-left: 20px;
 }
 
-#sidebar {
-  width: 25%;
-  height: 100%;
-  border-style: outset;
-  display: block;
-  padding-left: 1%;
-  font-size: 90%;
-  margin-left: 1%;
-  margin-top: 1.5%;
-  background-color: #F5F5F5;
-  font-family: 'Arvo', serif;
-  word-wrap: break-word;
-  padding-bottom: 1%;
-}
-
-#resumeContent {
-  margin-left: 1%;
-  margin-right: 2%;
-  display: block;
-  height: 100%;
-  width: 65%;
-  border-style: outset;
-  margin-top: 1.5%;
-  padding: 1%;
-  padding-bottom: 0.5%;
+#contactInfo li {
+  margin: 2px;
   font-size: 80%;
-  font-family: 'Arvo', serif;
-  background-color: #F5F5F5;
-  word-wrap: break-word;
 }
 
-.resume-section {
-  margin-top: 2%;
+#resumeColumns {
+  width: 100%;
+  display: inline-block;
 }
 
-#resume {
-  background-color: #DCDCDC;
+#resumeColumn1 {
+  float: left;
+  width: 64%;
+  margin-left: 1%;
+}
+#resumeColumn2 {
+  width: 30%;
+  float: right;
+  margin-left: 1%;
+}
+
+#resumeHead {
+  padding-left: 5%;
+  padding-bottom: 5%;
+  background-color: #ADD8E6;
+  margin-left: -5%;
+  padding-top: 5%;
+  width: 115%;
+  margin-bottom: 2%;
+  display: inline-block;
+  top: 0;
+  right: 0;
+}
+
+#resumeHead h1 {
+  font-size: 130%;
+  margin-bottom: -1%;
+}
+
+#resumeHead p {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 87%;
+  margin-left: 5px;
+}
+
+#resumeBody h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 350%;
+}
+
+#resumeBody h2, h3 {
+  font-family: 'Cutive Mono', monospace;
+}
+
+#resumeBody h2 {
+  font-size: 140%;
+}
+
+#resumeBody h3 {
+  font-size: 120%;
+}
+
+#resumeBody h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 100%;
+}
+
+#resumeBody ul {
+  list-style-type: none;
 }
 
 #resume a {
-    color: #1874CD;
+  color: #1874CD;
 }
 
-#resumeContent h2 {
-  font-family: 'Yellowtail', cursive;
-  font-size: 400%;
-}
-
-#resumeContent h3 {
-  font-family: 'Ranga', cursive;
-}
-
-#sidebar h2 {
-  font-family: 'Yellowtail', cursive;
-  font-size: 300%;
-}
-
-#sidebar h4 {
-  font-family: 'Ranga', cursive;
-  font-size: 210%;
-}
-
-#sidebar hr {
-  margin-bottom: 5%;
-  margin-top: -3%;
-  margin-right: 2%;
-}
-
-#courses {
-  padding-right: 1%;
-}
-
-#resumeContent h4 {
-  font-family: 'Arvo', serif;
-  font-size: 115%;
-  font-weight: bold;
-}
-
-.col-xs-4 {
-  padding: 0;
-}
-
-.col-md-2 {
-  padding: 0;
-}
-
-hr {
-  padding: 0;
-  margin: 0;
-  border-bottom: rgba(0,0,0,0.3) solid 1px;
-}
-
-.resumeDates {
-  margin-bottom: 1em;
-  font-size: 85%;
-}
-
-#resumeBody {
-  width: 110%;
-}
-
-#resumeCaption {
-  padding: 1.5%;
-  padding-top: 5%;
-  padding-bottom: 10%;
-}
-
-#extra {
-  margin-top: -3%;
-}
-
-#code {
-  top: 0;
+#code, #writing, #video, #photo, #resume {
   left: 0;
   position: fixed;
-  width: 100%;
-  height: 100%;
-  background: url("img/codeCover.jpg");
+  width: 103%;
+  height: 105%;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   overflow: scroll;
-  font-family: 'Josefin Slab', serif;
-  font-size: 110%;
+  font-family: 'Lato', sans-serif;
+  font-size: 105%;
 }
-
 
 #programmingLang {
   border-top: solid;
@@ -495,25 +770,16 @@ hr {
 }
 
 #code h1 {
-  font-family: 'Homemade Apple', cursive;
+  font-family: 'Nova Mono', monospace;
 } 
-
-#codeContent {
-  background-color: rgba(0,0,0,0.5);
-  color: white;
-  margin-top: 5%;
-  text-align: justify;
-  padding-bottom: 5%;
-  margin-bottom: 5%;
-}
 
 #codeContent h2 {
   margin-bottom: 2%;
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Nova Mono', monospace;
 }
 
 #codeContent h3, h4 {
- font-family: 'Cutive Mono', monospace;
+ font-family: 'Nova Mono', monospace;
 }
 
 #codeIntro {
@@ -523,88 +789,41 @@ hr {
   margin-bottom: 5%;
 }
 
-#currentProjects {
-  padding-right: 10%;
+#currentProjects h2 {
   padding-left: 10%;
-  padding-bottom: 10%;
-}
-
-#sceneVR {
-  display: inline-block;
-}
-
-#sceneVRText {
-  width: 70%;
-  float: right;
 }
 
 #KnightLabLogo {
   background-color: #F0FFFF;
-  width:25%;
-  float: left;
 } 
 
-#workzone {
-  margin-top: 5%;
-  float: left;
-  display: block;
-  padding-right: 5%;
-  padding-bottom: 7%;
-  border-bottom: solid;
-}
-
-#workzoneText {
-  float: right;
-  width: 70%;
-  display: block;
-  padding-left: 2%;
-}
-
 #workzoneImg {
-  width: 25%;
-  float: left;
   background-color: #F0FFFF;
-  display: block;
+}
+
+#workzoneLink {
+  padding: 0;
 }
 
 #codeRelCourses {
-  border-bottom: solid;
   margin-left: 10%;
+  margin-right: 10%;
+  border-top: solid;
+  padding-top: 3%;
+}
+
+#writingIntro {
   margin-right: 10%;
 }
 
-#writing {
-  overflow: scroll;
-  left: 0;
-  top: 0;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background: url("img/writingCover.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  font-family: 'Josefin Slab', serif;
-  font-size: 110%;
-}
-/*
-#photo {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: url("img/photoCover.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}*/
 #writing h1 {
-  font-family: 'Homemade Apple', cursive;
+  font-family: 'Nova Mono', monospace;
   padding-top: 3%;
   padding-left: 10%;
 }
 
 #writing h2, #writing h3 {
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Nova Mono', monospace;
   padding-left: 10%;
 }
 
@@ -622,14 +841,16 @@ hr {
   font-size: 110%;
 }
 
-#writingContent {
+#writingContent, #codeContent {
   background-color: rgba(0,0,0,0.7);
   color: white;
-  margin-top: 5%;
   text-align: justify;
   padding-bottom: 5%;
   margin-bottom: 5%;
-  margin-left: 2%;
+}
+
+#writingContent h3, h4 {
+  text-align: left;
 }
 
 #writingRelCourses {
@@ -642,6 +863,7 @@ hr {
   border-top: solid;
   margin-left: 10%;
   margin-right: 8%;
+  margin-bottom: 3%;
 }
 
 #dailyPiecesDiv {
@@ -657,37 +879,22 @@ hr {
   font-size: 90%;
 }
 
-#photo {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: url("img/photoCover.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
-
-#photoContent {
+#photoContent, #videoContent {
   text-align: justify;
   color: white;
   background-color: rgba(0,0,0,0.8);
-  margin-top: 5%;
-  width: 85%;
-  margin-left: 10%;
-  height: 90%;
+  margin-top: 5%; /*adjust and add a margin-left*/
   border-radius: 1%;
   padding-top: 5%;
   padding-bottom: 5%;
   z-index: 5;
   display: block;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Lato', sans-serif;
 }
 
 #photoContent p {
-  font-size: 150%;
+  font-size: 110%;
   text-align: center;
-  margin-top: 1%;
 }
 
 #photoContent h2 {
@@ -702,14 +909,8 @@ hr {
 }
 
 #photoRedirect {
-  display: flex;
-  display: -webkit-flex;
-  -webkit-flex-flow: row;
-  flex-flow: row;
   justify-content: center;
   -webkit-justify-content: center;
-  width: 90%;
-  margin-left: 5%;
 }
 
 #photoContent a {
@@ -732,4 +933,3 @@ hr {
   width: 100%;
   height: 100%;
   border-radius: 100%;
-}

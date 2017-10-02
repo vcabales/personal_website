@@ -19,10 +19,11 @@
         <li><a href="#code" aria-controls="code" data-toggle="tab">code</a></li>
         <li><a href="#writing" aria-controls="writing" data-toggle="tab">writing</a></li>
         <li><a href="#photo" aria-controls="photo" data-toggle="tab">photography</a></li>
-        <li><a href="#" aria-controls="video" data-toggle="tab">video</a></li>
+        <li><a href="#video" aria-controls="video" data-toggle="tab">video</a></li>
   </ul>
   </nav>
   </div>
+<span id="menu-overlay"></span>
 <div id="hamburger">
   <div class="hamburger-section"></div>
   <div class="hamburger-section"></div>
@@ -37,9 +38,10 @@
       <!-- About Me Div -->
 <div id="aboutMe" class="tab-pane fade">
   <div id="aboutContent">
+    <!--
     <div id="profileContainer">
       <img src="img/propic2.jpg" id="profilePhoto" class="img-circle" alt="profilePicture"> 
-    </div>
+    </div> -->
     <div id="titleContainer">
     <h1 id="aboutTitle">About Me</h1>
     </div>
@@ -53,235 +55,16 @@
   </div>
 </div>
 
-<!-- Resume Div -->
 <div id="resume" class="tab-pane fade">
-          <!-- Resume Div -->
-    <div id="resumeBody">
-      <div class="row">
-      <div class="col-xs-4" id="sidebar">
-        <!-- Picture and skills here -->
-        <img src="img/coffee.jpg" alt="..." class="img-thumbnail" id="resumePhoto">
-        <div id="resumeCaption">
-        Evanston, IL
-        <br/>Greater Chicago Area
-        <br/>Northwestern University Student
-      </div>
-      <hr/>
-        <h2>Skills</h2>
-        <h4>Adobe </h4>
-        <ul>
-        <li>PhotoShop
-        <li>PremierePro
-        <li>AfterEffects
-        <li>InDesign
-        <li>Illustrator
-      </ul>
-        <h4>Computer</h4>
-        <ul>
-        <li>Microsoft Office
-        <li> WordPress 
-        <li> WebVR platforms
-        </ul>
-        <h4>Programming</h4>
-        <ul>
-        <li>C++/C#
-        <li>Matlab 
-        <li>HTML/CSS 
-        <li>JavaScript
-        <li>Python 
-        <li>Java (in progress)
-        </ul>
-        <h4>Languages</h4>
-        <ul>
-        <li> English (native)
-        <li>Spanish (advanced) 
-        <li>Japanese (basic)
-        </ul>
-        <h4>Other</h4>
-        <ul>
-        <li>DSLR Camera Experience
-        <li>Knowledge of Arduino
-        <li>2D Character Animation Experience
-        <li>Experience Using Virtual Reality Framework <a href="https://aframe.io/">a-frame</a>
-        </ul>
-        <h4>Relevant Coursework </h4>
-        <ul id="courses">
-        <li>Reporting &amp; Writing 
-        <li>Multimedia Storytelling 
-        <li>Intro to Photojournalism 
-        <li>Human Computer Interaction 
-        <li>Fundamentals of Computer Programming I &amp; II
-        <li>Engineering Analysis I
-        <li>Data Structures &amp; Data Management
-      </ul>
-      </div>
-      <div class="col-xs-8" id="resumeContent">
-        <!-- Rest of resume here -->
-        <h2>Victoria Cabales</h2>
-        <hr />
-      <div id="education">
-        <div class="resume-section"><h3>Education</h3></div>
-        <h4>Northwestern University, Medill School of Journalism </h4>
-        <h4> Bachelor of Science in Journalism, Degree Expected June 2019 </h4>
-        <h4>Major: Journalism | Minor: Computer Science </h4>
-      </div>
-      <div id="work">
-        <div class="resume-section"><h3>Work Experience</h3></div>
-        <div class="row resumeRow">
-          <div class="col-xs-14 col-md-10" class="resumeInfo">
-        <h4>NBC 5 Telemundo Chicago <em>Commercial Production Intern</em></h4>
-        <ul>
-        <li>Writes and edits scripts along with a team of producers
-        <li>Shoots and edits film for broadcast news
-        <li>Works with Adobe Premiere Pro and creates graphics for video content
-        <li>Creates graphics in Adobe Premiere Pro
-        <li>Facilitates communication with clients in Spanish
-      </ul>
-          </div>
-          <div class="col-xs-4 col-md-2">
-            <span class="resumeDates">
-            Chicago, IL
-            <br />June 2017-Aug 2017
-          </span>
-          </div>
-      </div>
-        <div class="row resumeRow">
-          <div class="col-xs-14 col-md-10" class="resumeInfo">
-        <h4>B.C.B.C. Coffee Lab <em>Marketing Assistant, Barista</em></h4>
-        <ul>
-        <li>Assists in development of website and social media presence of a local business
-        <li>Develops interpersonal skills by interacting with approximately 70 customers per shift
-        <li>Demonstrates product knowledge by crafting specialty drinks and answering customers' questions
-      </ul>
-          </div>
-          <div class="col-xs-4 col-md-2">
-            <span class="resumeDates">
-            Evanston, IL
-            <br />Aug 2016-Present
-          </span>
-          </div>
-      </div>
-      <div class="row resumeRow">
-          <div class="col-xs-14 col-md-10" class="resumeInfo">
-        <h4>English Summer S.A. <em>English Teacher</em></h4>
-        <ul>
-        <li>Taught English to children between the ages of seven to eight years old in rural Spain
-        <li>Overcame cultural barriers to communicate with employers and clients
-        <li>Improved fluency in the Spanish language
-      </ul>
-          </div>
-          <div class="col-xs-4 col-md-2">
-            <span class="resumeDates">
-            Tarragona, Spain
-            <br />Jun 2016-Aug 2016
-          </span>
-          </div>
-      </div>
-      <div class="row resumeRow">
-          <div class="col-xs-14 col-md-10" class="resumeInfo">
-        <h4>Midland Medical Associates, L.L.C. <em>Secretary</em></h4>
-        <ul>
-        <li>Greeted patients at the front desk and collected any relevant information regarding their visit
-        <li>Billed insurance companies for their patients' visits and collected patients' copay
-        <li>Communicated with patients through phone calls and developed interpersonal skills
-      </ul>
-          </div>
-          <div class="col-xs-4 col-md-2">
-            <span class="resumeDates">
-            Jersey City, NJ
-            <br />Jun 2015-Aug 2015
-          </span>
-          </div>
-      </div>
-      </div>
-      <div id="extra">
-        <div class="resume-section"><h3>Extracurricular Activities</h3></div>
-        <div class="row resumeRow">
-          <div class="col-xs-14 col-md-10" class="resumeInfo">
-          <h4>The Daily Northwestern</h4>
-          <h4><em>Assistant Web Editor</em></h4>
-          <h4><em>City Reporter, Digital Projects Team</em></h4>
-          <ul>
-          <li>Manages WordPress site, Twitter, and Facebook accounts
-          <li>Develops journalistic and networking skills through interviewing and writing articles
-          <li>Assists in the creation of special web features with HTML, CSS, and JavaScript
-        </ul>
-          </div>
-          <div class="col-xs-4 col-md-2">
-            <span class="resumeDates">
-              Evanston, IL
-              <br />Jan 2017-Present
-              <br />Feb 2016-Present
-            </span>
-          </div>
-        </div>
-        <div class="row resumeRow">
-          <div class="col-xs-14 col-md-10" class="resumeInfo">
-          <h4>Cookology</h4>
-          <h4><em>Secretary, Outreach</em></h4>
-          <h4><em>Culinary Chair</em></h4>
-          <ul>
-          <li>Develops entrepreneurial skills by organizing pop-up restaurants (temporary restaurants)
-          <li>Designs graphics and emails to manage a network of approximately 500 Northwestern students
-          <li>Teaches cooking lessons to about 30 other students per session
-          <li>Reaches out to local restaurants and student groups to host educational culinary events
-        </ul>
-          </div>
-          <div class="col-xs-4 col-md-2">
-            <span class="resumeDates">
-              Evanston, IL
-              <br />Sept 2016-Present
-              <br />Oct 2015-Jun 2016
-            </span>
-          </div>
-        </div>
-        <div class="row resumeRow">
-          <div class="col-xs-14 col-md-10" class="resumeInfo">
-          <h4><em>YUP</em> Animated Webseries</h4>
-          <h4><em>Assistant Animator</em></h4>
-          <ul>
-          <li>Animates 2D characters for a webseries that will be aired by Northwestern television production group NUCH1
-          <li>Utilizes Adobe AfterEffects to make the movements of animated characters more natural
-          <li>Gains experience using PhotoShop and audio files for animation purposes
-        </ul>
-          </div>
-          <div class="col-xs-4 col-md-2">
-            <span class="resumeDates">
-              Evanston, IL
-              <br />Jan 2017-Present
-            </span>
-          </div>
-        </div>
-        <div class="row resumeRow">
-          <div class="col-xs-14 col-md-10" class="resumeInfo">
-          <h4>Northwestern Design Competition</h4>
-          <h4><em>Team Member</em></h4>
-          <ul>
-          <li>Participated in a four-person team to create a robot
-          <li>Gained experience using Arduino to create motion sensors
-          <li>Developed interest in sensor journalism
-        </ul>
-          </div>
-          <div class="col-xs-4 col-md-2">
-            <span class="resumeDates">
-              Evanston, IL
-              <br />Jan 2016-May 2016
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> <!--Close Row Div -->
-
-
+  <embed src="resume.pdf" width="100%" height="100%" />
 </div>
+
 <!--
   <div id="icons">
     <a href="malito:victoriacabales2019@u.northwestern.edu" target="blank"><img id ="email" class="icon" src="img/mail.ico"></a>
     <a href="https://www.linkedin.com/in/victoria-cabales-37556a120/" target="blank"><img class="icon" src="img/linkedinicon.png"></a>
     <a href="https://github.com/vcabales" target="blank"><img class="icon" src="img/githubicon.png"></a>
   </div> -->
-</div>
 
     <!-- Code Div -->
 <div id="code" class="tab-pane fade">
@@ -296,24 +79,31 @@
     </div>
       <div id="currentProjects">
         <h2>Current Projects</h2>
-      <div id="sceneVR">
-        <a href="http://scene.knightlab.com/" target="blank"><img id="KnightLabLogo" src="img/knightlab.png" alt="Knight Lab"> </a>
-      <div id="sceneVRText">
-        <h4>SceneVR</h4>
+      <div class="media" id="sensorGrid">
+        <a href="https://github.com/NUKnightLab/SensorGrid" target="blank"><img class="media-object" id="KnightLabLogo" src="#" alt="Sensor Grid"> </a>
+      <div class="media-body" id="SceneVRText">
+        <h4 class="media-heading">SensorGrid</h4>
+          SensorGrid is Knight Lab's experimental DIY prototyping system for ad hoc sensor network deployment. Designed around Adafruit's Atmel-based Feather prototyping ecosystem, SensorGrid is modular, extensible, and open source all the way down to its core components. SensorGrid is designed to quickly and easily deploy a wireless network of environmental data collection. The primary use case is environmental data collection around a campus area for use by students and researchers for environmental data reporting classes and projects.<em><a href="https://github.com/NUKnightLab/SensorGrid">View here on Github.</a></em>
+          <em><a href="http://scene.knightlab.com/" target="blank">View SceneVR here</a>. </em>
+      </div>
+      </div>
+      <div class="media" id="sceneVR">
+        <a href="http://scene.knightlab.com/" target="blank"><img class="media-object" id="KnightLabLogo" src="img/knightlab.png" alt="Knight Lab"> </a>
+      <div class="media-body" id="SceneVRText">
+        <h4 class="media-heading">SceneVR</h4>
           SceneVR is a virtual reality tool that provides immersive journalistic experiences that can be embedded into online platforms without additional support. The tool renders 3D panoramas in sequential stories that are supported on desktop, mobile, and Google Cardboard. Collaborating with a four-person team through Northwestern University's Knight Lab, I helped design this product by drafting its interface on PhotoShop, researching ways to render text in 3D spaces, and gathering user feedback through testing. 
           <em><a href="http://scene.knightlab.com/" target="blank">View SceneVR here</a>. </em>
       </div>
       </div>
-            <div id="workzone">
-        <a href="https://github.com/vcabales/EECS-330-Project" target="blank">
-        <img src="img/workzone.png" id="workzoneImg" alt="workzone">
+      <div class="media" id="workzone">
+        <a id="workzoneLink" href="https://github.com/vcabales/EECS-330-Project" target="blank">
+        <img class="media-object" src="img/workzone.png" id="workzoneImg" alt="workzone">
         </a>
-      <div id="workzoneText">
-        <h4>WorkZone</h4>
+      <div class="media-body" id="workzoneText">
+        <h4 class="media-heading">WorkZone</h4>
           WorkZone is a web app that tracks how much time a user wastes while studying. After the user manually inputs the sites that he or she finds unproductive, the app tracks these sites for a designated amount of time. After the time is up, the app displays a chart that represents the user's Internet activity, highlighting the time allotted to unproductive sites. Working with a four-person group for a Human Computer Interaction Class, I designed the general layout of our app. By doing so, I gained experience in using HTML, CSS, and JavaScript to design a one-page application. Although the class does not require us to implement its functionality, we hope to do so in the future. <a href="https://github.com/vcabales/EECS-330-Project" target="blank"><em>View here on Github.</em></a>
       </div>
       </div>
-      <hr/>
     </div>
     <div id="codeRelCourses">
     <h2>Relevant Courses</h2>
@@ -333,12 +123,33 @@
 <div id="writing" class="tab-pane fade">
 <div id="writingContent">
       <h1>Writing</h1>
-      <p></p>
-      <div id="writingWork">
+      <div id="writingIntro">
+        <p>I see what happened here. Put a description of what you like to write/would like to write about in the future. La di da di da. </p>
       </div>
-      <h2>My Work</h2>
       <div class="media">
-      <div class="media-left" id="ayalaDiv">
+        <div id="winnebagoDiv" class="portfolio-section">
+          <a href="http://immigrantconnect.medill.northwestern.edu/blog/2017/06/09/cabales-100-days/" target="blank">
+          <img class="media-object" id="winnebago" src="img/winnebago_rally.jpg" alt="Winnebago County Rally">
+        </a>
+        </div>
+      <div class="media-body" id="winnebagoText">
+        <h4 class="media-heading">Winnebago County stands against ICE detention center in Rockford</h4>
+        “ICE already has been active in arresting and detaining people with no criminal record within the area, and people are talking about leaving,” Dady said. “If ICE is going to have a permanent presence in our jail or an extended presence, [undocumented immigrants] don’t want to run the risk of being asked for papers when they’re going to the grocery store.” <em><a href="http://immigrantconnect.medill.northwestern.edu/blog/2017/06/09/cabales-100-days/" target="blank">Read the rest here.</a></em>
+      </div>
+    </div>
+      <div class="media">
+        <div id="restaurantDiv" class="portfolio-section">
+        <a href="http://immigrantconnect.medill.northwestern.edu/blog/2017/06/26/cabales-within-the-next-ten-years-how-likely-are-working-conditions-to-improve-for-immigrants-in-the-restaurant-industry/" target="blank">
+          <img class="media-object" id="restaurant-workers" src="img/restaurantImg.jpg" alt="Restaurant Workers Rally">
+        </a>
+      </div>
+      <div class="media-body" id="restaurantText">
+        <h4 class="media-heading">What are working conditions like for immigrants in the restaurant industry?</h4>
+        Picture what the city, almost any city, would look like if there were no restaurants. That’s what Latino grocery stores and restaurants hoped to convey when on May Day, 2017, many shut down in support of the thousands of people who protested in more than 40 cities against President Trump’s immigration policies. <em><a href="http://immigrantconnect.medill.northwestern.edu/blog/2017/06/26/cabales-within-the-next-ten-years-how-likely-are-working-conditions-to-improve-for-immigrants-in-the-restaurant-industry/" target="blank">Read the rest here.</a></em>
+      </div>
+    </div>
+      <div class="media">
+      <div id="ayalaDiv" class="portfolio-section">
         <a href="mentoring/index.html" target="blank" >
         <img class="media-object" id="ayala" src="mentoring/img/loren_ayala.jpg" alt="Loren Ayala">
         </a>
@@ -350,12 +161,12 @@
       </div>
 
       <div class="media">
-      <div class="media-left" id="LGBTAsianDiv">
+      <div id="LGBTAsianDiv" class="portfolio-section">
         <a href="article1.html" target="blank">
         <img class="media-object" id="SAGC" src="http://img.huffingtonpost.com/asset/scalefit_970_noupscale/570f1c2f1600002b0031ba77.png" alt="Sad Asian Girls Club">
         </a>
       </div>
-      <div class="media-body">
+      <div class="media-body" id="LGBT">
       <h4 class="media-heading">The Reactions of Asian Families When Their Children Come out as LGBT</h4>
           As a conservative Southern Baptist minister, Pastor Danilo “Danny” Cortez never imagined that 60 percent of his congregation would one day leave his church due to his involvement with the LGBT community. Prior to becoming an LGBT activist to advance the rights of his gay son, the Filipino pastor firmly believed that homosexuality was a sin. <em><a href="article1.html" target="blank">Read the rest here.</a></em>
       </div>
@@ -388,27 +199,34 @@
       <p>Albums will redirect to <a href="https://www.flickr.com/photos/152896189@N08/albums" target="blank">Flickr.</a></p>
       <div id="photoRedirect">
         <div class="photoElement">
-          <a href="https://www.flickr.com/photos/152896189@N08/albums/72157679759031260" target="blank"><h2>Everest Chicago</h2></a>
+          <a href="https://www.flickr.com/photos/152896189@N08/albums/72157679759031260" target="blank"><h2>everest chicago</h2></a>
           <div class="photoCircle">
           <a href="https://www.flickr.com/photos/152896189@N08/albums/72157679759031260" target="blank"><img src="img/Everest.jpg" alt="Everest"></a>
         </div>
-          <a href="https://www.flickr.com/photos/152896189@N08/albums/72157677989884464" target="blank" target="blank"><h2>Chicago Marathon</h2></a>
+          <a href="https://www.flickr.com/photos/152896189@N08/albums/72157677989884464" target="blank" target="blank"><h2>chicago marathon</h2></a>
           <div class="photoCircle">
           <a href="https://www.flickr.com/photos/152896189@N08/albums/72157677989884464" target="blank"><img src="img/marathon.jpg" alt="Chicago Marathon"></a>
         </div>
         </div>
         <div class="photoElement">
-          <a href="https://www.flickr.com/photos/152896189@N08/albums/72157679077865192" target="blank"><h2>Snaggletooth</h2></a>
+          <a href="https://www.flickr.com/photos/152896189@N08/albums/72157679077865192" target="blank"><h2>snaggletooth</h2></a>
           <div class="photoCircle">
           <a href="https://www.flickr.com/photos/152896189@N08/albums/72157679077865192" target="blank"><img src="img/Snaggletooth.jpg" alt="Snaggletooth"></a>
         </div>
-          <a href="https://www.flickr.com/photos/152896189@N08/albums/72157679758915580" target="blank"><h2>Bow Truss</h2></a>
+          <a href="https://www.flickr.com/photos/152896189@N08/albums/72157679758915580" target="blank"><h2>bow truss</h2></a>
           <div class="photoCircle">
-          <a href="https://www.flickr.com/photos/152896189@N08/albums/72157679758915580" target="blank"><img src="img/BowTruss.jpg" alt="Bow Truss"></a>
+          <a href="https://www.flickr.com/photos/152896189@N08/albums/72157679758915580" target="blank"><img src="img/videoCover.jpg" alt="Bow Truss"></a>
         </div>
         </div>
       </div>
     </div>
+    </div>
+
+    <!-- Video Div -->
+    <div id="video" class="tab-pane fade">
+      <div id="videoContent">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quos nisi redarguimus, omnis virtus, omne decus, omnis vera laus deserenda est. Hic quoque suus est de summoque bono dissentiens dici vere Peripateticus non potest. Sed ne, dum huic obsequor, vobis molestus sim. Sed ea mala virtuti magnitudine obruebantur. Nescio quo modo praetervolavit oratio. Duo Reges: constructio interrete. Omnes enim iucundum motum, quo sensus hilaretur. Scio enim esse quosdam, qui quavis lingua philosophari possint; Ergo adhuc, quantum equidem intellego, causa non videtur fuisse mutandi nominis. Qui-vere falsone, quaerere mittimus-dicitur oculis se privasse; </p>
+      </div>
     </div>
 
   </div>  <!-- Close tabcontent -->

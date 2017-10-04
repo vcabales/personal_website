@@ -70,7 +70,7 @@
   }
   .media-body {
     margin-top: 25%;
-    margin-left: -30%;
+    margin-left: -50%;
   }
   .portfolio-section {
     width: 60%;
@@ -88,11 +88,18 @@
   #LGBT {
     margin-top: 58%;
   }
-  #workzoneImg {
-    width: 50%;
+  #ayalaDiv {
+    margin-top: 50%;
   }
-  #workzoneText {
-    margin-left: -85%;
+  /*reset ayalaDiv for mobile */
+  #resume-pdf {
+    width: 140%;
+    height: 100%;
+    margin-left: -35%;
+    padding-top: 10%;
+  }
+  #tlmd {
+  width: 80%;
   }
 }
 
@@ -181,11 +188,24 @@
   #LGBT {
     margin-top: 58%;
   }
-  #workzoneImg {
-    width: 50%;
+  #SceneVRText, #SensorGridText, #WorkZoneText {
+    padding-left: 8%;
+    padding-right: 2%;
+    margin-top: 95%;
   }
-  #workzoneText {
-    margin-left: -85%;
+  #workzoneImg {
+    width: 150%;
+    margin-left: 10%;
+  }
+  #resume-pdf {
+    width: 140%;
+    height: 100%;
+    margin-left: -35%;
+    padding-top: 10%;
+  }
+  #tlmd {
+  width: 80%;
+  margin-left: 10%;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 700px) {
@@ -273,24 +293,28 @@
   #LGBT {
     margin-top: 58%;
   }
-  #workzoneImg {
-    width: 70%;
-    margin-left: 3%;
-  }
-  #workzoneText {
-    margin-left: -82%;
-    margin-top: 91%;
-    margin-right: 10%;
-    width: 200%;
-  }
   #KnightLabLogo{
     margin-top: 2%;
     width: 170%;
   }
-  #SceneVRText {
+  #SceneVRText, #SensorGridText, #WorkZoneText {
     padding-left: 8%;
     padding-right: 2%;
     margin-top: 95%;
+  }
+  #workzoneImg {
+    width: 150%;
+    margin-left: 10%;
+  }
+  #resume-pdf {
+    width: 140%;
+    height: 100%;
+    margin-left: -35%;
+    padding-top: 10%;
+  }
+  #tlmd {
+  margin-left: 15%;
+  width: 80%;
   }
 }
 @media only screen and (min-width: 700px) and (max-width: 1000px) {
@@ -373,26 +397,28 @@
   #LGBT {
     margin-top: 58%;
   }
-  #workzoneImg {
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 5%;
-  }
-  #workzoneText {
-    margin-left: -82%;
-    margin-top: 85%;
-    margin-right: 8%;
-    width: 200%;
-  }
   #KnightLabLogo{
     margin-top: 2%;
     width: 130%;
     margin-left: 15%;
   }
-  #SceneVRText {
+  #SceneVRText, #SensorGridText, #WorkZoneText {
     padding-left: 8%;
     padding-right: 1%;
     margin-top: 80%;
+  }
+  #workzoneImg {
+    width: 130%;
+    margin-left: 10%;
+  }
+  #resume-pdf {
+    width: 90%;
+    height: 90%;
+    margin-left: 15%;
+  }
+  #tlmd {
+  margin-left: 5%;
+  width: 80%;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -468,11 +494,12 @@
     margin: 0;
     width: 100%;
   }
-  #workzoneImg {
-    width: 65%;
+  #resume-pdf {
+    width: 100%;
+    height: 100%;
   }
-  #workzoneText {
-    margin-left: -15%;
+  #tlmd {
+  margin-left: 10%;
   }
 }
 
@@ -551,7 +578,7 @@
 
 #hamburger {
   margin-top: 5px;
-  margin-left: 5px;
+  margin-left: 15px;
   padding-top: 3px;
   width: 35px;
   height: 35px;
@@ -626,7 +653,7 @@
   font-size: 105%;
 }
 
-#aboutText h1, #photoContent h1 {
+#aboutText h1, #photoContent h1, #video h1 {
   font-family: 'Nova Mono', monospace;
 }
 
@@ -652,94 +679,6 @@
 .media-body {
   width: 40%;
   margin-right: 5%;
-}
-
-#resumeTitle {
-  float: left;
-  padding-right: 0;
-}
-
-#contactInfo {
-  list-style-type: none;
-  border-left-style: solid;
-  padding-left: 20px;
-  float: left;
-  margin-left: 20px;
-}
-
-#contactInfo li {
-  margin: 2px;
-  font-size: 80%;
-}
-
-#resumeColumns {
-  width: 100%;
-  display: inline-block;
-}
-
-#resumeColumn1 {
-  float: left;
-  width: 64%;
-  margin-left: 1%;
-}
-#resumeColumn2 {
-  width: 30%;
-  float: right;
-  margin-left: 1%;
-}
-
-#resumeHead {
-  padding-left: 5%;
-  padding-bottom: 5%;
-  background-color: #ADD8E6;
-  margin-left: -5%;
-  padding-top: 5%;
-  width: 115%;
-  margin-bottom: 2%;
-  display: inline-block;
-  top: 0;
-  right: 0;
-}
-
-#resumeHead h1 {
-  font-size: 130%;
-  margin-bottom: -1%;
-}
-
-#resumeHead p {
-  font-family: 'Cutive Mono', monospace;
-  font-size: 87%;
-  margin-left: 5px;
-}
-
-#resumeBody h1 {
-  font-family: 'Yellowtail', cursive;
-  font-size: 350%;
-}
-
-#resumeBody h2, h3 {
-  font-family: 'Cutive Mono', monospace;
-}
-
-#resumeBody h2 {
-  font-size: 140%;
-}
-
-#resumeBody h3 {
-  font-size: 120%;
-}
-
-#resumeBody h4 {
-  font-family: 'Lato', sans-serif;
-  font-size: 100%;
-}
-
-#resumeBody ul {
-  list-style-type: none;
-}
-
-#resume a {
-  color: #1874CD;
 }
 
 #code, #writing, #video, #photo, #resume {
@@ -933,3 +872,13 @@
   width: 100%;
   height: 100%;
   border-radius: 100%;
+}
+#videoContent {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%;
+}
+#videoContent a {
+  color: #ADD8E6;
+}
+

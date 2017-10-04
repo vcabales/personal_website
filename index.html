@@ -38,17 +38,13 @@
       <!-- About Me Div -->
 <div id="aboutMe" class="tab-pane fade">
   <div id="aboutContent">
-    <!--
-    <div id="profileContainer">
-      <img src="img/propic2.jpg" id="profilePhoto" class="img-circle" alt="profilePicture"> 
-    </div> -->
     <div id="titleContainer">
     <h1 id="aboutTitle">About Me</h1>
     </div>
     <div id="aboutText">
-    <p>I love to write and code, and I do both while consuming copious amounts of caffeine. My dream is to find a job that would combine my two passions, but in the meantime, I'm studying Journalism and Computer Science at Northwestern University. <br />
+    <p>I love to write and code, and I do both while consuming copious amounts of caffeine. I'd like to find a job that would combine my two passions, but in the meantime, I'm studying Journalism and Computer Science at Northwestern University. <br />
       <br />
-    One day, I hope to work as a data journalist, discovering investigative stories through web scraping and creating interactive content through code. After an adventurous career (ideally filled with traveling to cool places around the world), I dream of opening a cute cafe that serves delicious coffee and has special stations for people to learn how to code. <br />
+    I hope to work as a data journalist, discovering investigative stories through web scraping and creating interactive content through code. After an adventurous career (ideally filled with traveling to cool places around the world), I dream of opening a cute cafe that serves delicious coffee and has special stations for people to learn how to code. <br />
       <br />
     If you'd like to support me and my dreams, feel free to contact me at <a href="malito:victoriacabales2019@u.northwestern.edu" target="blank">victoriacabales2019@u.northwestern.edu</a>.
   </div>
@@ -56,7 +52,7 @@
 </div>
 
 <div id="resume" class="tab-pane fade">
-  <embed src="resume.pdf" width="100%" height="100%" />
+  <embed src="resume.pdf" id="resume-pdf" />
 </div>
 
 <!--
@@ -80,8 +76,8 @@
       <div id="currentProjects">
         <h2>Current Projects</h2>
       <div class="media" id="sensorGrid">
-        <a href="https://github.com/NUKnightLab/SensorGrid" target="blank"><img class="media-object" id="KnightLabLogo" src="#" alt="Sensor Grid"> </a>
-      <div class="media-body" id="SceneVRText">
+        <a href="https://github.com/NUKnightLab/SensorGrid" target="blank"><img class="media-object" id="KnightLabLogo" src="img/dust-sensor.png" alt="Sensor Grid"> </a>
+      <div class="media-body" id="SensorGridText">
         <h4 class="media-heading">SensorGrid</h4>
           SensorGrid is Knight Lab's experimental DIY prototyping system for ad hoc sensor network deployment. Designed around Adafruit's Atmel-based Feather prototyping ecosystem, SensorGrid is modular, extensible, and open source all the way down to its core components. SensorGrid is designed to quickly and easily deploy a wireless network of environmental data collection. The primary use case is environmental data collection around a campus area for use by students and researchers for environmental data reporting classes and projects.<em><a href="https://github.com/NUKnightLab/SensorGrid">View here on Github.</a></em>
           <em><a href="http://scene.knightlab.com/" target="blank">View SceneVR here</a>. </em>
@@ -97,9 +93,9 @@
       </div>
       <div class="media" id="workzone">
         <a id="workzoneLink" href="https://github.com/vcabales/EECS-330-Project" target="blank">
-        <img class="media-object" src="img/workzone.png" id="workzoneImg" alt="workzone">
+        <img src="img/workzone.png" id="workzoneImg" alt="workzone">
         </a>
-      <div class="media-body" id="workzoneText">
+      <div class="media-body" id="WorkZoneText">
         <h4 class="media-heading">WorkZone</h4>
           WorkZone is a web app that tracks how much time a user wastes while studying. After the user manually inputs the sites that he or she finds unproductive, the app tracks these sites for a designated amount of time. After the time is up, the app displays a chart that represents the user's Internet activity, highlighting the time allotted to unproductive sites. Working with a four-person group for a Human Computer Interaction Class, I designed the general layout of our app. By doing so, I gained experience in using HTML, CSS, and JavaScript to design a one-page application. Although the class does not require us to implement its functionality, we hope to do so in the future. <a href="https://github.com/vcabales/EECS-330-Project" target="blank"><em>View here on Github.</em></a>
       </div>
@@ -124,7 +120,7 @@
 <div id="writingContent">
       <h1>Writing</h1>
       <div id="writingIntro">
-        <p>I see what happened here. Put a description of what you like to write/would like to write about in the future. La di da di da. </p>
+        <p>I've reported on a variety of topics, ranging from immigration to education and LGBTQ rights. I'm passionate about writing stories on groups of marginalized people and understanding the difficulties that they face.</p>
       </div>
       <div class="media">
         <div id="winnebagoDiv" class="portfolio-section">
@@ -154,7 +150,7 @@
         <img class="media-object" id="ayala" src="mentoring/img/loren_ayala.jpg" alt="Loren Ayala">
         </a>
       </div>
-        <div class="media-body">
+        <div class="media-body" id="ayalaDiv">
         <h4 class="media-heading">The Power of Mentoring</h4>
           Loren Ayala has always been cognizant of the challenges posed by her identity as a low-income and first-generation student. While her parents did not have the opportunity to graduate from high school in Mexico, the Northwestern University Senior has succeeded in her pursuit of a dual degree in civil and environmental engineering. Her pride for these accomplishments is well-deserved. However, growing up, Ayala felt that she was hiding crucial parts of her identity. She realized the importance of her background after joining the peer mentorship program Compass. <em><a href="mentoring/index.html" target="blank">Read the rest here.</a></em>
       </div>
@@ -225,7 +221,9 @@
     <!-- Video Div -->
     <div id="video" class="tab-pane fade">
       <div id="videoContent">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quos nisi redarguimus, omnis virtus, omne decus, omnis vera laus deserenda est. Hic quoque suus est de summoque bono dissentiens dici vere Peripateticus non potest. Sed ne, dum huic obsequor, vobis molestus sim. Sed ea mala virtuti magnitudine obruebantur. Nescio quo modo praetervolavit oratio. Duo Reges: constructio interrete. Omnes enim iucundum motum, quo sensus hilaretur. Scio enim esse quosdam, qui quavis lingua philosophari possint; Ergo adhuc, quantum equidem intellego, causa non videtur fuisse mutandi nominis. Qui-vere falsone, quaerere mittimus-dicitur oculis se privasse; </p>
+        <h1>Video</h1>
+        <p>I spent the past summer working for Telemundo Chicago as a Commercial Production Intern. I learned that promo writing was hard, and writing commercial scripts in Spanish was even harder. But overall, I had a great time, and got to take home a little portfolio of Spanish commercials that I can call my own. <a href="#" target="blank">Check out my work on Vimeo.</a></p>
+        <img src="#" alt="Telemundo-Chicago"> 
       </div>
     </div>
 

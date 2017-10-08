@@ -23,6 +23,9 @@
   #hamburger, #menu-overlay {
     display: inline;
   }
+  #menu-overlay {
+    height: 10%;
+  }
   nav {
     margin-top: 10%;
   }
@@ -53,13 +56,13 @@
     font-size: 150%;
   }
   #codeContent, #writingContent {
-    margin-left: -50%;
+    margin-left: -30%;
     width: 130%;
     margin-top: 20%;
   }
   #photoContent, #videoContent {
     width: 115%;
-    margin-left: -50%;
+    margin-left: -30%;
     margin-top: 30%;
   }
   #photoContent {
@@ -125,6 +128,9 @@
  #menu {
     display: none;
     width: 70%;
+  }
+  #menu-overlay {
+    height: 6%;
   }
   #hamburger, #menu-overlay {
     display: inline;
@@ -241,6 +247,9 @@
   #menu {
     display: none;
     width: 70%;
+  }
+  #menu-overlay {
+    height: 6%;
   }
   #hamburger, #menu-overlay {
     display: inline;
@@ -364,6 +373,9 @@
   #hamburger, #menu-overlay {
     display: none;
   }
+  #menu-overlay {
+    height: 6%;
+  }
   #home {
     background: url("img/coveredited1.jpg");
   }
@@ -395,6 +407,12 @@
     width: 85%;
     margin-left: 15%;
     height: 90%;
+  }
+  #photoContent {
+    margin-top: 5%;
+  }
+  #videoContent {
+    margin-top: 5%;
   }
   #photoRedirect {
     display: flex;
@@ -447,9 +465,6 @@
   margin-left: 5%;
   width: 80%;
   }
-  #videoContent, #photoContent {
-    margin-top: 10%;
-  }
 }
 @media only screen and (min-width: 1000px) {
   /*desktop */
@@ -472,6 +487,9 @@
   }
   #hamburger, #menu-overlay {
     display: none;
+  }
+  #menu-overlay {
+    height: 6%;
   }
   #home {
     background: url("img/coveredited1.jpg");
@@ -503,6 +521,9 @@
   #photoContent, #videoContent {
     width: 85%;
     margin-left: 10%;
+  }
+  #photoContent {
+    margin-top: 5%;
   }
   #videoContent {
     margin-top: 10%;
@@ -603,7 +624,6 @@
 #menu-overlay {
   position: fixed;
   width: 100%;
-  height: 6%;
   background-color: #181818;
   margin: 0;
   z-index: 1;

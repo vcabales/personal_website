@@ -20,3 +20,5 @@ function checkMenu(){
 		$('#menu').attr('display', 'block')
 	}
 }
+
+//make function to click anywhere to close menu once open
